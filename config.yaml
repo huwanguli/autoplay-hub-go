@@ -1,0 +1,29 @@
+name: "autoplay-hub"
+mode: "dev"
+port: 8081
+version: "v0.0.1"
+start_time: "2025-12-02"
+machine_id: 1
+
+auth:
+  jwt_expire: 8760
+log:
+  level: "debug"
+  filename: "autoplay_hub.log"
+  max_size: 200
+  max_age: 30
+  max_backup: 7
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: "www.184WYOP.com"
+  dbname: "autoplay_hub_go"
+  max_open_conns: 200
+  max_idle_conns: 50
+redis:
+  host: "127.0.0.1"
+  password: ""
+  port: 6379
+  db: 3
+  pool_size: 50

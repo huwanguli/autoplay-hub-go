@@ -1,0 +1,147 @@
+{"level":"INFO","time":"2025-12-02T18:04:32.165+0800","caller":"autoplay-hub/main.go:66","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T18:05:13.677+0800","caller":"autoplay-hub/main.go:32","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T18:05:13.692+0800","caller":"autoplay-hub/main.go:39","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T18:05:13.693+0800","caller":"autoplay-hub/main.go:46","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T18:05:25.083+0800","caller":"autoplay-hub/main.go:67","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T20:20:38.172+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T20:20:38.188+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T20:20:38.192+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"ERROR","time":"2025-12-02T20:20:38.192+0800","caller":"autoplay-hub/main.go:51","msg":"init snowflake failed","error":"parsing time \"2025-12-2\" as \"2006-01-02\": cannot parse \"2\" as \"02\""}
+{"level":"INFO","time":"2025-12-02T20:22:15.688+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T20:22:15.702+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T20:22:15.703+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"ERROR","time":"2025-12-02T20:22:15.704+0800","caller":"autoplay-hub/main.go:51","msg":"init snowflake failed","error":"parsing time \"2025-12-2\" as \"2006-01-02\": cannot parse \"2\" as \"02\""}
+{"level":"INFO","time":"2025-12-02T20:22:45.352+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T20:22:45.365+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T20:22:45.366+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T20:22:45.366+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T20:22:51.784+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"Key: 'ParamRegister.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParamRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2025-12-02T20:22:51.784+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"ERROR","time":"2025-12-02T20:23:17.123+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"Key: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+{"level":"INFO","time":"2025-12-02T20:23:17.123+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"ERROR","time":"2025-12-02T20:23:48.243+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"json: cannot unmarshal number into Go struct field ParamRegister.is_admin of type bool"}
+{"level":"INFO","time":"2025-12-02T20:23:48.243+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T20:24:08.182+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0120742}
+{"level":"ERROR","time":"2025-12-02T20:24:30.048+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2025-12-02T20:24:30.048+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T20:24:31.667+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.006694}
+{"level":"INFO","time":"2025-12-02T20:58:02.094+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T20:58:07.078+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T20:58:26.619+0800","caller":"controller/user.go:42","msg":"LoginHandler PostParam Error","error":"invalid character '}' looking for beginning of object key string"}
+{"level":"INFO","time":"2025-12-02T20:58:26.620+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"ERROR","time":"2025-12-02T20:58:29.235+0800","caller":"controller/user.go:49","msg":"logic.Login error","error":"scannable dest type ptr with >1 columns (4) in result"}
+{"level":"INFO","time":"2025-12-02T20:58:29.235+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0037704}
+{"level":"INFO","time":"2025-12-02T21:00:33.370+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T21:00:39.493+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T21:00:39.508+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T21:00:39.509+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T21:00:39.509+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T21:00:48.692+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020807}
+{"level":"INFO","time":"2025-12-02T21:01:03.150+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006646}
+{"level":"INFO","time":"2025-12-02T21:01:25.355+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008549}
+{"level":"INFO","time":"2025-12-02T21:01:28.018+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005165}
+{"level":"INFO","time":"2025-12-02T21:21:27.092+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T21:43:21.482+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T21:43:21.497+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T21:43:21.498+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T21:43:21.498+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T21:43:31.523+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015456}
+{"level":"INFO","time":"2025-12-02T22:48:40.719+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:48:48.121+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:48:48.134+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:48:48.135+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:48:48.135+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T22:50:12.100+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T22:50:40.177+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T22:51:33.203+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T22:52:29.245+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:52:38.516+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T22:52:44.062+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0035515}
+{"level":"INFO","time":"2025-12-02T22:53:02.289+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0009396}
+{"level":"INFO","time":"2025-12-02T22:54:31.536+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:54:40.779+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T22:54:44.924+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T22:54:44.925+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005041}
+{"level":"INFO","time":"2025-12-02T22:56:22.308+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:56:28.609+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:56:28.622+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:56:28.623+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:56:28.623+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T22:56:33.510+0800","caller":"middlewares/auth.go:32","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T22:56:33.511+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005042}
+{"level":"INFO","time":"2025-12-02T22:58:32.646+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:58:39.047+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T22:58:44.179+0800","caller":"middlewares/auth.go:33","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T22:58:44.179+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"INFO","time":"2025-12-02T22:59:03.983+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:59:10.216+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T22:59:27.409+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T22:59:27.409+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005174}
+{"level":"INFO","time":"2025-12-02T22:59:51.950+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T22:59:58.173+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T22:59:58.186+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T22:59:58.186+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T22:59:58.187+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T23:00:03.350+0800","caller":"middlewares/auth.go:35","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T23:00:03.351+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006183}
+{"level":"INFO","time":"2025-12-02T23:01:04.998+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:01:11.204+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T23:01:16.553+0800","caller":"logger/logger.go:114","msg":"[Recovery from panic]","error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/v1/script HTTP/1.1\r\nHost: 127.0.0.1:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxODcyNjgwMTg5OTkyOTYsInVzZXJuYW1lIjoiS2Fub24iLCJpc19hZG1pbiI6dHJ1ZSwiaXNzIjoiYXV0b3BsYXktaHViIiwic3ViIjoidXNlci10b2tlbiIsImV4cCI6MTc2NDY4NzE2NCwibmJmIjoxNzY0Njg3MTY0LCJpYXQiOjE3NjQ2ODcxNjR9.-HRaYHYgSwqkzyZOVSwMyLwRHaQzdl5SL_Uz50qBh5k\r\nConnection: keep-alive\r\nContent-Length: 103\r\nContent-Type: application/json\r\nPostman-Token: ad8aab36-244b-41f3-910f-5aa9cebe703c\r\nUser-Agent: PostmanRuntime/7.49.1\r\n\r\n","stack":"goroutine 52 [running]:\nruntime/debug.Stack()\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/debug/stack.go:26 +0x5e\nautoplay-hub/router.SetupRouter.GinRecovery.func3.1()\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:117 +0x4d1\npanic({0x7ff70a003840?, 0x7ff709f1ce00?})\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/panic.go:783 +0x132\nautoplay-hub/router.SetupRouter.JWTAuthMiddleware.func4(0xc000324100)\n\tD:/CodeProgram/Go/autoplay-hub/middlewares/auth.go:33 +0x12a\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinRecovery.func3(0xc000359650?)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:128 +0x47\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinLogger.func2(0xc000324100)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:70 +0x75\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000256820, 0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:689 +0x435\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000256820, {0x7ff70a2e70f0, 0xc00031a0f0}, 0xc00034c000)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:643 +0x1ad\nnet/http.serverHandler.ServeHTTP({0x7ff70a2e4368?}, {0x7ff70a2e70f0?, 0xc00031a0f0?}, 0x6?)\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3340 +0x8e\nnet/http.(*conn).serve(0xc0002ba090, {0x7ff70a2e81f8, 0xc00028e3f0})\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:2109 +0x665\ncreated by net/http.(*Server).Serve in goroutine 25\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3493 +0x485\n"}
+{"level":"INFO","time":"2025-12-02T23:01:16.553+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":500,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005048}
+{"level":"INFO","time":"2025-12-02T23:01:34.732+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:01:53.418+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T23:02:05.009+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010376}
+{"level":"ERROR","time":"2025-12-02T23:02:29.836+0800","caller":"logger/logger.go:114","msg":"[Recovery from panic]","error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/v1/script HTTP/1.1\r\nHost: 127.0.0.1:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxODcyNjgwMTg5OTkyOTYsInVzZXJuYW1lIjoiS2Fub24iLCJpc19hZG1pbiI6dHJ1ZSwiaXNzIjoiYXV0b3BsYXktaHViIiwic3ViIjoidXNlci10b2tlbiIsImV4cCI6MTc2NDY4NzcyNSwibmJmIjoxNzY0Njg3NzI1LCJpYXQiOjE3NjQ2ODc3MjV9.MRTNrMeYVVRW9ie7aIG53ZylxWzBQrsXu0IOfnx9zEY\r\nConnection: keep-alive\r\nContent-Length: 103\r\nContent-Type: application/json\r\nPostman-Token: f627e811-e080-4860-b64e-4ac48e18ed18\r\nUser-Agent: PostmanRuntime/7.49.1\r\n\r\n","stack":"goroutine 50 [running]:\nruntime/debug.Stack()\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/debug/stack.go:26 +0x5e\nautoplay-hub/router.SetupRouter.GinRecovery.func3.1()\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:117 +0x4d1\npanic({0x7ff66ed33840?, 0x7ff66ec4ce00?})\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/panic.go:783 +0x132\nautoplay-hub/router.SetupRouter.JWTAuthMiddleware.func4(0xc000152200)\n\tD:/CodeProgram/Go/autoplay-hub/middlewares/auth.go:33 +0x12a\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinRecovery.func3(0xc00035f650?)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:128 +0x47\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinLogger.func2(0xc000152200)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:70 +0x75\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00013a340, 0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:689 +0x435\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00013a340, {0x7ff66f0170f0, 0xc0001302d0}, 0xc00015e000)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:643 +0x1ad\nnet/http.serverHandler.ServeHTTP({0x7ff66f014368?}, {0x7ff66f0170f0?, 0xc0001302d0?}, 0x6?)\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3340 +0x8e\nnet/http.(*conn).serve(0xc0002bc090, {0x7ff66f0181f8, 0xc0002b41e0})\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:2109 +0x665\ncreated by net/http.(*Server).Serve in goroutine 35\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3493 +0x485\n"}
+{"level":"INFO","time":"2025-12-02T23:02:29.836+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":500,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005044}
+{"level":"INFO","time":"2025-12-02T23:02:42.633+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:02:53.045+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:02:53.060+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:02:53.061+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:02:53.061+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T23:02:58.072+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
+{"level":"INFO","time":"2025-12-02T23:02:58.072+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006684}
+{"level":"INFO","time":"2025-12-02T23:05:50.174+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:05:56.339+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:05:56.353+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:05:56.354+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:05:56.354+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T23:06:01.928+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误","error":"token has invalid claims: token is expired"}
+{"level":"INFO","time":"2025-12-02T23:06:01.928+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005271}
+{"level":"INFO","time":"2025-12-02T23:07:28.453+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:09:33.097+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-02T23:09:38.539+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误","error":"token has invalid claims: token is expired"}
+{"level":"INFO","time":"2025-12-02T23:09:38.539+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.000783}
+{"level":"INFO","time":"2025-12-02T23:09:57.552+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014182}
+{"level":"INFO","time":"2025-12-02T23:12:02.192+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-02T23:15:59.235+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-02T23:16:04.601+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015494}
+{"level":"INFO","time":"2025-12-02T23:16:16.115+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0093575}
+{"level":"INFO","time":"2025-12-02T23:17:18.754+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0081005}
+{"level":"INFO","time":"2025-12-02T23:17:26.166+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
