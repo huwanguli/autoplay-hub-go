@@ -50,3 +50,14 @@ func Login(p *models.User) (err error) {
 	}
 	return
 }
+
+func CheckUserNameByID(userID int64) (username string, err error) {
+	sqlStr := `select username from users where user_id=?`
+	err = db.Get(&username, sqlStr, userID)
+	if errors.Is(err, sql.ErrNoRows) {
+		return "", ErrorUserNotExist
+	} else if err != nil {
+		return "", err
+	}
+	return
+}

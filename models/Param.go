@@ -20,3 +20,10 @@ type ParamScript struct {
 	OwnerID     int64  `json:"owner_id"`
 	Content     string `json:"content" binding:"required"`
 }
+
+// ParamUpdateScript 修改脚本内容用结构体
+type ParamUpdateScript struct {
+	ScriptName  *string `json:"name"`
+	Description *string `json:"description"`
+	Content     *string `json:"content"`
+}

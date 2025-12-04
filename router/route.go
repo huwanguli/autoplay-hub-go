@@ -23,7 +23,16 @@ func SetupRouter() *gin.Engine {
 		// 使用JWT认证中间件
 		v1.Use(middlewares.JWTAuthMiddleware())
 		{
+			// 创建脚本
 			v1.POST("/script", controller.ScriptHandler)
+			// 获取所有
+			v1.GET("/scripts", controller.AllScriptInfoHandler)
+			// 脚本详情
+			v1.GET("/script/:id", controller.ScriptDetailHandler)
+			// 编辑脚本
+			v1.PATCH("/script/:id", controller.UpdateScriptHandler)
+			// 运行脚本
+			//v1.POST("/script/run", controller.ScriptRunHandler)
 		}
 
 	}
