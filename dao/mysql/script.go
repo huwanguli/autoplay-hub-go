@@ -92,3 +92,18 @@ func GetUserIdByScriptID(id int64) (userID int64, err error) {
 	}
 	return
 }
+
+// DeleteScript 删除脚本
+func DeleteScript(id int64) (err error) {
+	sqlStr := `delete from scripts where id=?`
+	result, err := db.Exec(sqlStr, id)
+	if err != nil {
+		return err
+	}
+	count, _ := result.RowsAffected()
+	if count != 1 {
+		return ErrorScriptNotExist
+	}
+	return
+
+}

@@ -115,3 +115,16 @@ func UpdateScript(p *models.ParamUpdateScript, id int64, ownerID int64) (err err
 	// 修改数据库，更新脚本内容
 	return mysql.UpdateScript(id, PMap)
 }
+
+// DeleteScript 删除脚本
+func DeleteScript(id int64, userID int64) (err error) {
+	OwnerID, err := mysql.GetUserIdByScriptID(id)
+	if err != nil {
+		return err
+	}
+	if OwnerID != userID {
+		err = ErrorInvalidUserID
+		return err
+	}
+	return mysql.DeleteScript(id)
+}

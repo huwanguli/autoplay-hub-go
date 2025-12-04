@@ -31,8 +31,10 @@ func SetupRouter() *gin.Engine {
 			v1.GET("/script/:id", controller.ScriptDetailHandler)
 			// 编辑脚本
 			v1.PATCH("/script/:id", controller.UpdateScriptHandler)
+			// 删除脚本
+			v1.DELETE("script/:id", controller.DeleteScriptHandler)
 			// 运行脚本
-			//v1.POST("/script/run", controller.ScriptRunHandler)
+			//v1.POST("/script/:id/run", controller.ScriptRunHandler)
 		}
 
 	}

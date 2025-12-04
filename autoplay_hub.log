@@ -304,3 +304,10 @@
 {"level":"INFO","time":"2025-12-04T22:15:17.845+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020643}
 {"level":"ERROR","time":"2025-12-04T22:15:32.523+0800","caller":"controller/script.go:132","msg":"UpdateScriptHandler logic.UpdateScript err","error":"用户不对应"}
 {"level":"INFO","time":"2025-12-04T22:15:32.523+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"PATCH","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005042}
+{"level":"INFO","time":"2025-12-04T22:27:58.085+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-04T22:28:06.656+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-04T22:28:06.669+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-04T22:28:06.670+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-04T22:28:06.670+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-04T22:28:22.730+0800","caller":"controller/script.go:161","msg":"logic.DeleteScript err","error":"用户不对应"}
+{"level":"INFO","time":"2025-12-04T22:28:22.730+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"DELETE","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036457}

@@ -140,3 +140,35 @@ func UpdateScriptHandler(c *gin.Context) {
 	// 3.返回响应
 	ResponseSuccess(c, nil)
 }
+
+// DeleteScriptHandler 删除脚本
+func DeleteScriptHandler(c *gin.Context) {
+	// 参数的校验
+	idStr := c.Param("id")
+	if idStr == "" {
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	id, _ := strconv.ParseInt(idStr, 10, 64)
+	userID, err := getCurrentUserID(c)
+	if errors.Is(err, ErrorUserNotLogin) {
+		ResponseError(c, CodeNeedLogin)
+		return
+	}
+
+	// 2. 业务处理
+	if err := logic.DeleteScript(id, userID); err != nil {
+		zap.L().Error("logic.DeleteScript err", zap.Error(err))
+		if errors.Is(err, mysql.ErrorScriptNotExist) {
+			ResponseError(c, CodeScriptNotExists)
+			return
+		} else if errors.Is(err, logic.ErrorInvalidUserID) {
+			ResponseError(c, CodeInvalidUser)
+			return
+		}
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	// 3. 返回响应
+	ResponseSuccess(c, nil)
+}
