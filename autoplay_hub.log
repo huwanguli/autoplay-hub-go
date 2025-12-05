@@ -311,3 +311,152 @@
 {"level":"INFO","time":"2025-12-04T22:28:06.670+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
 {"level":"ERROR","time":"2025-12-04T22:28:22.730+0800","caller":"controller/script.go:161","msg":"logic.DeleteScript err","error":"用户不对应"}
 {"level":"INFO","time":"2025-12-04T22:28:22.730+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"DELETE","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036457}
+{"level":"INFO","time":"2025-12-04T22:28:44.000+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008252}
+{"level":"INFO","time":"2025-12-04T22:28:55.456+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"DELETE","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.009567}
+{"level":"INFO","time":"2025-12-04T23:05:23.368+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T16:20:18.881+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T16:20:18.901+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T16:20:18.906+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T16:20:18.906+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T16:21:56.701+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T16:24:33.860+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T16:24:33.878+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T16:24:33.879+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T16:24:33.879+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-05T16:25:21.679+0800","caller":"controller/task.go:29","msg":"logic.ScriptRun error","error":"Error 1292 (22007): Incorrect datetime value: '0000-00-00 00:00:00' for column 'executed_at' at row 1"}
+{"level":"INFO","time":"2025-12-05T16:25:21.679+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0070745}
+{"level":"INFO","time":"2025-12-05T16:26:00.173+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T16:26:06.953+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T16:26:06.964+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T16:26:06.965+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T16:26:06.966+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T16:26:11.868+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0133238}
+{"level":"INFO","time":"2025-12-05T17:16:03.878+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T17:16:10.920+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T17:16:10.933+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T17:16:10.934+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T17:16:10.934+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T17:16:23.750+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.012251}
+{"level":"INFO","time":"2025-12-05T17:18:41.645+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0080076}
+{"level":"INFO","time":"2025-12-05T17:19:45.619+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0073702}
+{"level":"INFO","time":"2025-12-05T17:28:38.788+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0063754}
+{"level":"INFO","time":"2025-12-05T17:31:35.704+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T17:31:43.312+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T17:31:49.705+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0061644}
+{"level":"INFO","time":"2025-12-05T17:32:06.536+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0071495}
+{"level":"INFO","time":"2025-12-05T17:33:26.009+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T17:33:33.960+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T17:33:39.088+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0082301}
+{"level":"INFO","time":"2025-12-05T17:34:31.009+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0048218}
+{"level":"INFO","time":"2025-12-05T17:35:22.790+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0052305}
+{"level":"INFO","time":"2025-12-05T17:43:28.239+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0077761}
+{"level":"INFO","time":"2025-12-05T18:08:51.364+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0058137}
+{"level":"INFO","time":"2025-12-05T18:27:38.197+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:27:45.105+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:27:45.118+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:27:45.119+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:27:45.119+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:27:56.153+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014626}
+{"level":"ERROR","time":"2025-12-05T18:28:16.901+0800","caller":"controller/task.go:71","msg":"logic.GetAllScriptList err","error":"sql: Scan error on column index 5, name \"executed_at\": converting NULL to int64 is unsupported"}
+{"level":"INFO","time":"2025-12-05T18:28:16.901+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005046}
+{"level":"INFO","time":"2025-12-05T18:29:23.834+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:29:30.430+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:29:30.441+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:29:30.442+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:29:30.442+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:29:34.494+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0022543}
+{"level":"INFO","time":"2025-12-05T18:30:15.104+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008055}
+{"level":"INFO","time":"2025-12-05T18:30:58.558+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005405}
+{"level":"INFO","time":"2025-12-05T18:31:14.480+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014929}
+{"level":"INFO","time":"2025-12-05T18:31:18.364+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015828}
+{"level":"INFO","time":"2025-12-05T18:31:24.152+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0012411}
+{"level":"INFO","time":"2025-12-05T18:33:24.450+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:33:31.062+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:33:31.075+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:33:31.076+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:33:31.076+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:33:36.868+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0038845}
+{"level":"INFO","time":"2025-12-05T18:33:42.168+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0022638}
+{"level":"INFO","time":"2025-12-05T18:33:45.118+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=3","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020048}
+{"level":"INFO","time":"2025-12-05T18:33:51.294+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=3","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005062}
+{"level":"INFO","time":"2025-12-05T18:46:36.313+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:46:43.031+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:46:55.239+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks/1","status":404,"method":"GET","path":"/api/v1/tasks/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
+{"level":"ERROR","time":"2025-12-05T18:47:30.649+0800","caller":"logic/task.go:95","msg":"mysql.GetTaskDetailByScriptID failed","task_id":1,"error":"sql: Scan error on column index 6, name \"created_at\": converting driver.Value type time.Time (\"2025-12-05 16:26:11 +0000 UTC\") to a int64: invalid syntax"}
+{"level":"ERROR","time":"2025-12-05T18:47:30.649+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"sql: Scan error on column index 6, name \"created_at\": converting driver.Value type time.Time (\"2025-12-05 16:26:11 +0000 UTC\") to a int64: invalid syntax"}
+{"level":"INFO","time":"2025-12-05T18:47:30.649+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015431}
+{"level":"INFO","time":"2025-12-05T18:48:44.478+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:48:51.433+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-05T18:48:56.530+0800","caller":"logic/task.go:101","msg":"mysql.CheckUerIDByTaskID failed","user_id":187268018999296,"uid":0,"error":"Error 1054 (42S22): Unknown column 'task_id' in 'where clause'"}
+{"level":"ERROR","time":"2025-12-05T18:48:56.530+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"Error 1054 (42S22): Unknown column 'task_id' in 'where clause'"}
+{"level":"INFO","time":"2025-12-05T18:48:56.530+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036865}
+{"level":"INFO","time":"2025-12-05T18:49:50.075+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:49:56.413+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:49:56.425+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:49:56.426+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:49:56.426+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:50:02.089+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0039903}
+{"level":"INFO","time":"2025-12-05T18:50:39.329+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:50:45.751+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:50:45.763+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:50:45.764+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:50:45.764+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-05T18:50:50.789+0800","caller":"logic/task.go:95","msg":"mysql.GetTaskDetailByScriptID failed","task_id":2,"error":"sql: Scan error on column index 7, name \"executed_at\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"ERROR","time":"2025-12-05T18:50:50.789+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"sql: Scan error on column index 7, name \"executed_at\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
+{"level":"INFO","time":"2025-12-05T18:50:50.789+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0031506}
+{"level":"INFO","time":"2025-12-05T18:51:11.203+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T18:51:14.708+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T18:51:18.907+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0023133}
+{"level":"INFO","time":"2025-12-05T18:51:25.211+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010274}
+{"level":"INFO","time":"2025-12-05T18:55:27.339+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010225}
+{"level":"INFO","time":"2025-12-05T18:55:30.433+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005645}
+{"level":"INFO","time":"2025-12-05T19:15:22.625+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010739}
+{"level":"INFO","time":"2025-12-05T19:15:25.636+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011913}
+{"level":"INFO","time":"2025-12-05T19:15:33.449+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T19:29:19.085+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T19:29:19.100+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T19:29:19.101+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T19:29:19.101+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-05T19:29:53.966+0800","caller":"controller/task.go:41","msg":"logic.ScriptRun error","error":"Error 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`autoplay_hub_go`.`tasks`, CONSTRAINT `fk_tasks_script_id` FOREIGN KEY (`script_id`) REFERENCES `scripts` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)"}
+{"level":"INFO","time":"2025-12-05T19:29:53.966+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0107788}
+{"level":"INFO","time":"2025-12-05T19:32:35.608+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0082294}
+{"level":"INFO","time":"2025-12-05T19:52:11.414+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T19:52:22.477+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T19:52:22.531+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T19:52:22.535+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T19:52:22.535+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T19:52:33.221+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.05046}
+{"level":"INFO","time":"2025-12-05T20:09:14.918+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T20:09:23.718+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T20:09:30.614+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0102748}
+{"level":"INFO","time":"2025-12-05T20:25:17.371+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T20:51:48.117+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T20:51:48.130+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T20:51:48.133+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T20:51:48.133+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T20:54:30.591+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15/stop","status":200,"method":"PATCH","path":"/api/v1/task/15/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0302191}
+{"level":"INFO","time":"2025-12-05T21:01:36.927+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T21:01:44.605+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T21:01:44.618+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T21:01:44.619+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T21:01:44.619+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T21:01:56.539+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0890056}
+{"level":"INFO","time":"2025-12-05T21:07:19.168+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}

@@ -32,3 +32,22 @@ CREATE TABLE `scripts` (
                            INDEX `idx_updated_at` (`updated_at`)
 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='脚本表'; -- 优化排序规则
+
+CREATE TABLE `tasks` (
+                         `id` int unsigned NOT NULL AUTO_INCREMENT COMMENT '任务唯一ID',
+                         `script_id` int unsigned NOT NULL COMMENT '关联的脚本ID（外键）',
+                         `task_name` varchar(64) DEFAULT NULL COMMENT '任务名称（如“脚本执行-20251205”）',
+                         `status` tinyint(1) NOT NULL DEFAULT 0 COMMENT '任务状态：0=待执行，1=执行中，2=执行成功，3=执行失败',
+                         `log_content` longtext DEFAULT NULL COMMENT '任务执行日志（存储输出、错误信息等）',
+                         `user_id` bigint NOT NULL COMMENT '任务创建者（关联用户表user_id）',
+                         `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '任务创建时间',
+                         `executed_at` timestamp NULL DEFAULT NULL COMMENT '任务执行完成时间（成功/失败后填充）',
+                         PRIMARY KEY (`id`),
+    -- 外键关联：确保任务关联的脚本和用户必须存在
+                         CONSTRAINT `fk_tasks_script_id` FOREIGN KEY (`script_id`) REFERENCES `scripts` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+                         CONSTRAINT `fk_tasks_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`user_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+    -- 索引：优化查询（按脚本查任务、按用户查任务、按状态查任务）
+                         INDEX `idx_script_id` (`script_id`),
+                         INDEX `idx_created_by` (`user_id`),
+                         INDEX `idx_status` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='脚本任务表';

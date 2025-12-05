@@ -107,3 +107,25 @@ func DeleteScript(id int64) (err error) {
 	return
 
 }
+
+// GetScriptByScriptID 根据脚本ID获取具体内容
+func GetScriptByScriptID(id int64) (content string, err error) {
+	sqlStr := `select content from scripts where id=?`
+	err = db.Get(&content, sqlStr, id)
+	if errors.Is(err, sql.ErrNoRows) {
+		err = ErrorScriptNotExist
+		return "", err
+	}
+	return
+}
+
+func CheckScriptNameByID(userID int64) (scriptName string, err error) {
+	sqlStr := `select name from scripts where id=?`
+	err = db.Get(&scriptName, sqlStr, userID)
+	if errors.Is(err, sql.ErrNoRows) {
+		return "", ErrorUserNotExist
+	} else if err != nil {
+		return "", err
+	}
+	return
+}

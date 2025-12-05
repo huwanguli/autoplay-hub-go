@@ -16,6 +16,9 @@ const (
 	CodeScriptExists
 	CodeScriptNotExists
 	CodeInvalidUser
+	CodeRunScriptFailed
+	CodeCmdRunFailed
+	CodeNoDevices
 )
 
 var codeMsgMap = map[ResCode]string{
@@ -30,6 +33,9 @@ var codeMsgMap = map[ResCode]string{
 	CodeScriptExists:    "脚本已存在",
 	CodeScriptNotExists: "脚本不存在",
 	CodeInvalidUser:     "用户不对应",
+	CodeRunScriptFailed: "脚本运行初始化失败",
+	CodeCmdRunFailed:    "cmd命令执行失败",
+	CodeNoDevices:       "没有可用的设备",
 }
 
 func (res ResCode) Msg() string {

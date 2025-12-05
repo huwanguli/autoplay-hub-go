@@ -1,5 +1,7 @@
 package models
 
+import "time"
+
 // ParamRegister RegisterPOST请求中使用
 type ParamRegister struct {
 	Username   string `json:"username" binding:"required"`
@@ -26,4 +28,15 @@ type ParamUpdateScript struct {
 	ScriptName  *string `json:"name"`
 	Description *string `json:"description"`
 	Content     *string `json:"content"`
+}
+
+type ParamScriptRun struct {
+	ScriptID  int64  `json:"script_id,string"`
+	DeviceUrl string `json:"device_url" binding:"required"`
+}
+
+type ParamStopTask struct {
+	TaskID     int64     `json:"task_id,string"`
+	Status     int64     `json:"status" binding:"required"`
+	ExecutedAt time.Time `json:"executed_at"`
 }

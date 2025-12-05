@@ -32,9 +32,17 @@ func SetupRouter() *gin.Engine {
 			// 编辑脚本
 			v1.PATCH("/script/:id", controller.UpdateScriptHandler)
 			// 删除脚本
-			v1.DELETE("script/:id", controller.DeleteScriptHandler)
+			v1.DELETE("/script/:id", controller.DeleteScriptHandler)
 			// 运行脚本
-			//v1.POST("/script/:id/run", controller.ScriptRunHandler)
+			v1.POST("/script/:id/run", controller.ScriptRunHandler)
+			// 获取所有任务
+			v1.GET("/tasks", controller.TaskListHandler)
+			// 任务详情
+			v1.GET("/task/:id", controller.TaskDetailHandler)
+			// 停止任务
+			v1.PATCH("/task/:id/stop", controller.TaskStopHandler)
+			// 获取设备列表
+			v1.GET("/devices", controller.GetDevicesHandler)
 		}
 
 	}
