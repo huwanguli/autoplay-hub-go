@@ -146,3 +146,55 @@ func TaskStopHandler(c *gin.Context) {
 	// 返回响应
 	ResponseSuccess(c, nil)
 }
+
+// UpdateTaskHandler 更改任务详情
+func UpdateTaskHandler(c *gin.Context) {
+	// 1.参数的校验
+	id, err := getCurrentRouteID(c)
+	if err != nil {
+		zap.L().Error("UpdateTaskHandler GetCurrentRouteID error InvalidParam", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	p := new(models.ParamUpdateTask)
+	if err := c.ShouldBindJSON(p); err != nil {
+		zap.L().Error("ParamUpdateTask ShouldBindJSON error", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	p.TaskID = id
+	// 2. 业务的处理
+	if err := logic.UpdateTask(p); err != nil {
+		zap.L().Error("logic.UpdateTask err", zap.Error(err))
+		if errors.Is(err, mysql.ErrorTaskNotExist) {
+			ResponseError(c, CodeTaskNotExists)
+			return
+		}
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	// 3.返回响应
+	ResponseSuccess(c, nil)
+}
+
+// DeleteTaskHandler 删除任务
+func DeleteTaskHandler(c *gin.Context) {
+	id, err := getCurrentRouteID(c)
+	if err != nil {
+		zap.L().Error("DeleteTaskHandler GetCurrentRouteID error InvalidParam", zap.Error(err))
+		ResponseError(c, CodeInvalidParam)
+		return
+	}
+	// 业务的处理
+	if err := logic.DeleteTask(id); err != nil {
+		zap.L().Error("logic.DeleteTask err", zap.Error(err))
+		if errors.Is(err, mysql.ErrorTaskNotExist) {
+			ResponseError(c, CodeTaskNotExists)
+			return
+		}
+		ResponseError(c, CodeServerBusy)
+		return
+	}
+	// 返回响应
+	ResponseSuccess(c, nil)
+}

@@ -460,3 +460,36 @@
 {"level":"INFO","time":"2025-12-05T21:01:44.619+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
 {"level":"INFO","time":"2025-12-05T21:01:56.539+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0890056}
 {"level":"INFO","time":"2025-12-05T21:07:19.168+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T21:07:28.749+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T21:07:35.255+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0570651}
+{"level":"INFO","time":"2025-12-05T21:07:36.130+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0468428}
+{"level":"INFO","time":"2025-12-05T21:07:50.929+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0653369}
+{"level":"INFO","time":"2025-12-05T21:08:57.484+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0538683}
+{"level":"INFO","time":"2025-12-05T21:32:15.494+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T21:32:23.866+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T21:33:15.663+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15","status":200,"method":"PATCH","path":"/api/v1/task/15","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0104574}
+{"level":"INFO","time":"2025-12-05T21:33:28.470+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005061}
+{"level":"INFO","time":"2025-12-05T21:33:31.597+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005049}
+{"level":"INFO","time":"2025-12-05T21:34:38.605+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T21:34:45.323+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T21:34:45.335+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T21:34:45.337+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T21:34:45.337+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"ERROR","time":"2025-12-05T21:34:50.068+0800","caller":"logic/task.go:135","msg":"mysql.CheckTaskExistsByID failed","error":"任务不存在"}
+{"level":"ERROR","time":"2025-12-05T21:34:50.068+0800","caller":"controller/task.go:168","msg":"logic.UpdateTask err","error":"任务不存在"}
+{"level":"INFO","time":"2025-12-05T21:34:50.068+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0029366}
+{"level":"INFO","time":"2025-12-05T21:42:37.678+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-05T21:43:01.646+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-05T21:43:01.658+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-05T21:43:01.659+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-05T21:43:01.659+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+{"level":"INFO","time":"2025-12-05T21:43:12.875+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15","status":200,"method":"DELETE","path":"/api/v1/task/15","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0087495}
+{"level":"ERROR","time":"2025-12-05T21:43:22.083+0800","caller":"logic/task.go:149","msg":"mysql.CheckTaskExistsByID failed","error":"任务不存在"}
+{"level":"ERROR","time":"2025-12-05T21:43:22.083+0800","caller":"controller/task.go:190","msg":"logic.DeleteTask err","error":"任务不存在"}
+{"level":"INFO","time":"2025-12-05T21:43:22.083+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"DELETE","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005183}

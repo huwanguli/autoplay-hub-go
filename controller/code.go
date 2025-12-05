@@ -17,6 +17,7 @@ const (
 	CodeScriptNotExists
 	CodeInvalidUser
 	CodeRunScriptFailed
+	CodeTaskNotExists
 	CodeCmdRunFailed
 	CodeNoDevices
 )
@@ -34,6 +35,7 @@ var codeMsgMap = map[ResCode]string{
 	CodeScriptNotExists: "脚本不存在",
 	CodeInvalidUser:     "用户不对应",
 	CodeRunScriptFailed: "脚本运行初始化失败",
+	CodeTaskNotExists:   "任务不存在",
 	CodeCmdRunFailed:    "cmd命令执行失败",
 	CodeNoDevices:       "没有可用的设备",
 }

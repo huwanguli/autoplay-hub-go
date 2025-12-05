@@ -67,3 +67,10 @@ func getPageInfo(c *gin.Context) (int64, int64) {
 	}
 	return page, size
 }
+
+// 获取动态路由ID参数
+func getCurrentRouteID(c *gin.Context) (routeID int64, err error) {
+	idStr := c.Param("id")
+	routeID, err = strconv.ParseInt(idStr, 10, 64)
+	return
+}

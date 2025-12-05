@@ -37,6 +37,11 @@ type ParamScriptRun struct {
 
 type ParamStopTask struct {
 	TaskID     int64     `json:"task_id,string"`
-	Status     int64     `json:"status" binding:"required"`
+	Status     int64     `json:"status" binding:"required,oneof=1"`
 	ExecutedAt time.Time `json:"executed_at"`
+}
+
+type ParamUpdateTask struct {
+	Name   string `json:"name" binging:"required"`
+	TaskID int64  `json:"task_id,string"`
 }

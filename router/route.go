@@ -39,8 +39,12 @@ func SetupRouter() *gin.Engine {
 			v1.GET("/tasks", controller.TaskListHandler)
 			// 任务详情
 			v1.GET("/task/:id", controller.TaskDetailHandler)
+			// 编辑任务
+			v1.PATCH("/task/:id", controller.UpdateTaskHandler)
 			// 停止任务
 			v1.PATCH("/task/:id/stop", controller.TaskStopHandler)
+			// 删除任务
+			v1.DELETE("/task/:id", controller.DeleteTaskHandler)
 			// 获取设备列表
 			v1.GET("/devices", controller.GetDevicesHandler)
 		}

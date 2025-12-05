@@ -127,3 +127,31 @@ func TaskStop(p *models.ParamStopTask) (err error) {
 	}
 	return
 }
+
+// UpdateTask 更新任务参数
+func UpdateTask(p *models.ParamUpdateTask) (err error) {
+	// 检验该任务是否存在
+	if err = mysql.CheckTaskExistsByID(p.TaskID); err != nil {
+		zap.L().Error("mysql.CheckTaskExistsByID failed", zap.Error(err))
+		return err
+	}
+	if err = mysql.UpdateTaskName(p); err != nil {
+		zap.L().Error("mysql.UpdateTaskName failed", zap.Error(err))
+		return err
+	}
+	return
+}
+
+// DeleteTask 删除任务
+func DeleteTask(id int64) (err error) {
+	// 检验该任务是否存在
+	if err = mysql.CheckTaskExistsByID(id); err != nil {
+		zap.L().Error("mysql.CheckTaskExistsByID failed", zap.Error(err))
+		return err
+	}
+	if err = mysql.DeleteTask(id); err != nil {
+		zap.L().Error("mysql.DeleteTask failed", zap.Error(err))
+		return err
+	}
+	return
+}

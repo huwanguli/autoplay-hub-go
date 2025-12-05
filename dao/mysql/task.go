@@ -2,6 +2,8 @@ package mysql
 
 import (
 	"autoplay-hub/models"
+	"database/sql"
+	"errors"
 )
 
 func InsertTask(p *models.Task) (err error) {
@@ -57,5 +59,35 @@ func GetMaxTaskID() (id int64, err error) {
 func UpdateTask(p *models.ParamStopTask) (err error) {
 	sqlStr := `update tasks set status=?, executed_at=? where id=?`
 	_, err = db.Exec(sqlStr, p.Status, p.ExecutedAt, p.TaskID)
+	return
+}
+
+// CheckTaskExistsByID 判断任务是否存在
+func CheckTaskExistsByID(id int64) (err error) {
+	sqlStr := `select count(id) from tasks where id=?`
+	var count int
+	err = db.Get(&count, sqlStr, id)
+	if err != nil {
+		if errors.Is(err, sql.ErrNoRows) {
+			err = ErrorTaskNotExist
+		}
+	}
+	if count == 0 {
+		err = ErrorTaskNotExist
+	}
+	return
+}
+
+// UpdateTaskName 更新任务名称
+func UpdateTaskName(p *models.ParamUpdateTask) (err error) {
+	sqlStr := `update tasks set task_name=? where id=?`
+	_, err = db.Exec(sqlStr, p.Name, p.TaskID)
+	return
+}
+
+// DeleteTask 删除任务
+func DeleteTask(id int64) (err error) {
+	sqlStr := `delete from tasks where id=?`
+	_, err = db.Exec(sqlStr, id)
 	return
 }
