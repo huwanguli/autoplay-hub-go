@@ -1,495 +1,377 @@
-{"level":"INFO","time":"2025-12-02T18:04:32.165+0800","caller":"autoplay-hub/main.go:66","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T18:05:13.677+0800","caller":"autoplay-hub/main.go:32","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T18:05:13.692+0800","caller":"autoplay-hub/main.go:39","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T18:05:13.693+0800","caller":"autoplay-hub/main.go:46","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T18:05:25.083+0800","caller":"autoplay-hub/main.go:67","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T20:20:38.172+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T20:20:38.188+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T20:20:38.192+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"ERROR","time":"2025-12-02T20:20:38.192+0800","caller":"autoplay-hub/main.go:51","msg":"init snowflake failed","error":"parsing time \"2025-12-2\" as \"2006-01-02\": cannot parse \"2\" as \"02\""}
-{"level":"INFO","time":"2025-12-02T20:22:15.688+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T20:22:15.702+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T20:22:15.703+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"ERROR","time":"2025-12-02T20:22:15.704+0800","caller":"autoplay-hub/main.go:51","msg":"init snowflake failed","error":"parsing time \"2025-12-2\" as \"2006-01-02\": cannot parse \"2\" as \"02\""}
-{"level":"INFO","time":"2025-12-02T20:22:45.352+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T20:22:45.365+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T20:22:45.366+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T20:22:45.366+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T20:22:51.784+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"Key: 'ParamRegister.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParamRegister.Password' Error:Field validation for 'Password' failed on the 'required' tag\nKey: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
-{"level":"INFO","time":"2025-12-02T20:22:51.784+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"ERROR","time":"2025-12-02T20:23:17.123+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"Key: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
-{"level":"INFO","time":"2025-12-02T20:23:17.123+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"ERROR","time":"2025-12-02T20:23:48.243+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"json: cannot unmarshal number into Go struct field ParamRegister.is_admin of type bool"}
-{"level":"INFO","time":"2025-12-02T20:23:48.243+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T20:24:08.182+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0120742}
-{"level":"ERROR","time":"2025-12-02T20:24:30.048+0800","caller":"controller/user.go:18","msg":"RegisterHandler PostParam Error","error":"invalid character '}' looking for beginning of object key string"}
-{"level":"INFO","time":"2025-12-02T20:24:30.048+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T20:24:31.667+0800","caller":"logger/logger.go:73","msg":"/api/v1/register","status":200,"method":"POST","path":"/api/v1/register","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.006694}
-{"level":"INFO","time":"2025-12-02T20:58:02.094+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T20:58:07.078+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T20:58:07.093+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T20:58:26.619+0800","caller":"controller/user.go:42","msg":"LoginHandler PostParam Error","error":"invalid character '}' looking for beginning of object key string"}
-{"level":"INFO","time":"2025-12-02T20:58:26.620+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"ERROR","time":"2025-12-02T20:58:29.235+0800","caller":"controller/user.go:49","msg":"logic.Login error","error":"scannable dest type ptr with >1 columns (4) in result"}
-{"level":"INFO","time":"2025-12-02T20:58:29.235+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0037704}
-{"level":"INFO","time":"2025-12-02T21:00:33.370+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T21:00:39.493+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T21:00:39.508+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T21:00:39.509+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T21:00:39.509+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T21:00:48.692+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020807}
-{"level":"INFO","time":"2025-12-02T21:01:03.150+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006646}
-{"level":"INFO","time":"2025-12-02T21:01:25.355+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008549}
-{"level":"INFO","time":"2025-12-02T21:01:28.018+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005165}
-{"level":"INFO","time":"2025-12-02T21:21:27.092+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T21:43:21.482+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T21:43:21.497+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T21:43:21.498+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T21:43:21.498+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T21:43:31.523+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015456}
-{"level":"INFO","time":"2025-12-02T22:48:40.719+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:48:48.121+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:48:48.134+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:48:48.135+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:48:48.135+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T22:50:12.100+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T22:50:40.177+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T22:51:33.203+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T22:52:29.245+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:52:38.516+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:52:38.530+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T22:52:44.062+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0035515}
-{"level":"INFO","time":"2025-12-02T22:53:02.289+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0009396}
-{"level":"INFO","time":"2025-12-02T22:54:31.536+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:54:40.779+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:54:40.792+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T22:54:44.924+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T22:54:44.925+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005041}
-{"level":"INFO","time":"2025-12-02T22:56:22.308+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:56:28.609+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:56:28.622+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:56:28.623+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:56:28.623+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T22:56:33.510+0800","caller":"middlewares/auth.go:32","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T22:56:33.511+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005042}
-{"level":"INFO","time":"2025-12-02T22:58:32.646+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:58:39.047+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:58:39.060+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T22:58:44.179+0800","caller":"middlewares/auth.go:33","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T22:58:44.179+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"INFO","time":"2025-12-02T22:59:03.983+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:59:10.216+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:59:10.230+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T22:59:27.409+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T22:59:27.409+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005174}
-{"level":"INFO","time":"2025-12-02T22:59:51.950+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T22:59:58.173+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T22:59:58.186+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T22:59:58.186+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T22:59:58.187+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T23:00:03.350+0800","caller":"middlewares/auth.go:35","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T23:00:03.351+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006183}
-{"level":"INFO","time":"2025-12-02T23:01:04.998+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:01:11.204+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:01:11.217+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T23:01:16.553+0800","caller":"logger/logger.go:114","msg":"[Recovery from panic]","error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/v1/script HTTP/1.1\r\nHost: 127.0.0.1:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxODcyNjgwMTg5OTkyOTYsInVzZXJuYW1lIjoiS2Fub24iLCJpc19hZG1pbiI6dHJ1ZSwiaXNzIjoiYXV0b3BsYXktaHViIiwic3ViIjoidXNlci10b2tlbiIsImV4cCI6MTc2NDY4NzE2NCwibmJmIjoxNzY0Njg3MTY0LCJpYXQiOjE3NjQ2ODcxNjR9.-HRaYHYgSwqkzyZOVSwMyLwRHaQzdl5SL_Uz50qBh5k\r\nConnection: keep-alive\r\nContent-Length: 103\r\nContent-Type: application/json\r\nPostman-Token: ad8aab36-244b-41f3-910f-5aa9cebe703c\r\nUser-Agent: PostmanRuntime/7.49.1\r\n\r\n","stack":"goroutine 52 [running]:\nruntime/debug.Stack()\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/debug/stack.go:26 +0x5e\nautoplay-hub/router.SetupRouter.GinRecovery.func3.1()\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:117 +0x4d1\npanic({0x7ff70a003840?, 0x7ff709f1ce00?})\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/panic.go:783 +0x132\nautoplay-hub/router.SetupRouter.JWTAuthMiddleware.func4(0xc000324100)\n\tD:/CodeProgram/Go/autoplay-hub/middlewares/auth.go:33 +0x12a\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinRecovery.func3(0xc000359650?)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:128 +0x47\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinLogger.func2(0xc000324100)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:70 +0x75\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc000256820, 0xc000324100)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:689 +0x435\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc000256820, {0x7ff70a2e70f0, 0xc00031a0f0}, 0xc00034c000)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:643 +0x1ad\nnet/http.serverHandler.ServeHTTP({0x7ff70a2e4368?}, {0x7ff70a2e70f0?, 0xc00031a0f0?}, 0x6?)\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3340 +0x8e\nnet/http.(*conn).serve(0xc0002ba090, {0x7ff70a2e81f8, 0xc00028e3f0})\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:2109 +0x665\ncreated by net/http.(*Server).Serve in goroutine 25\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3493 +0x485\n"}
-{"level":"INFO","time":"2025-12-02T23:01:16.553+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":500,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005048}
-{"level":"INFO","time":"2025-12-02T23:01:34.732+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:01:53.418+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:01:53.431+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T23:02:05.009+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010376}
-{"level":"ERROR","time":"2025-12-02T23:02:29.836+0800","caller":"logger/logger.go:114","msg":"[Recovery from panic]","error":"runtime error: invalid memory address or nil pointer dereference","request":"POST /api/v1/script HTTP/1.1\r\nHost: 127.0.0.1:8081\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxODcyNjgwMTg5OTkyOTYsInVzZXJuYW1lIjoiS2Fub24iLCJpc19hZG1pbiI6dHJ1ZSwiaXNzIjoiYXV0b3BsYXktaHViIiwic3ViIjoidXNlci10b2tlbiIsImV4cCI6MTc2NDY4NzcyNSwibmJmIjoxNzY0Njg3NzI1LCJpYXQiOjE3NjQ2ODc3MjV9.MRTNrMeYVVRW9ie7aIG53ZylxWzBQrsXu0IOfnx9zEY\r\nConnection: keep-alive\r\nContent-Length: 103\r\nContent-Type: application/json\r\nPostman-Token: f627e811-e080-4860-b64e-4ac48e18ed18\r\nUser-Agent: PostmanRuntime/7.49.1\r\n\r\n","stack":"goroutine 50 [running]:\nruntime/debug.Stack()\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/debug/stack.go:26 +0x5e\nautoplay-hub/router.SetupRouter.GinRecovery.func3.1()\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:117 +0x4d1\npanic({0x7ff66ed33840?, 0x7ff66ec4ce00?})\n\tC:/Users/18459/sdk/go1.25.3/src/runtime/panic.go:783 +0x132\nautoplay-hub/router.SetupRouter.JWTAuthMiddleware.func4(0xc000152200)\n\tD:/CodeProgram/Go/autoplay-hub/middlewares/auth.go:33 +0x12a\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinRecovery.func3(0xc00035f650?)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:128 +0x47\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\nautoplay-hub/router.SetupRouter.GinLogger.func2(0xc000152200)\n\tD:/CodeProgram/Go/autoplay-hub/logger/logger.go:70 +0x75\ngithub.com/gin-gonic/gin.(*Context).Next(0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/context.go:192 +0x4e\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00013a340, 0xc000152200)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:689 +0x435\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00013a340, {0x7ff66f0170f0, 0xc0001302d0}, 0xc00015e000)\n\tC:/Users/18459/go/pkg/mod/github.com/gin-gonic/gin@v1.11.0/gin.go:643 +0x1ad\nnet/http.serverHandler.ServeHTTP({0x7ff66f014368?}, {0x7ff66f0170f0?, 0xc0001302d0?}, 0x6?)\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3340 +0x8e\nnet/http.(*conn).serve(0xc0002bc090, {0x7ff66f0181f8, 0xc0002b41e0})\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:2109 +0x665\ncreated by net/http.(*Server).Serve in goroutine 35\n\tC:/Users/18459/sdk/go1.25.3/src/net/http/server.go:3493 +0x485\n"}
-{"level":"INFO","time":"2025-12-02T23:02:29.836+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":500,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005044}
-{"level":"INFO","time":"2025-12-02T23:02:42.633+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:02:53.045+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:02:53.060+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:02:53.061+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:02:53.061+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T23:02:58.072+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误"}
-{"level":"INFO","time":"2025-12-02T23:02:58.072+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006684}
-{"level":"INFO","time":"2025-12-02T23:05:50.174+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:05:56.339+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:05:56.353+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:05:56.354+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:05:56.354+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T23:06:01.928+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误","error":"token has invalid claims: token is expired"}
-{"level":"INFO","time":"2025-12-02T23:06:01.928+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005271}
-{"level":"INFO","time":"2025-12-02T23:07:28.453+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:09:33.097+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:09:33.110+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-02T23:09:38.539+0800","caller":"middlewares/auth.go:34","msg":"Token解析错误","error":"token has invalid claims: token is expired"}
-{"level":"INFO","time":"2025-12-02T23:09:38.539+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.000783}
-{"level":"INFO","time":"2025-12-02T23:09:57.552+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014182}
-{"level":"INFO","time":"2025-12-02T23:12:02.192+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-02T23:15:59.235+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-02T23:15:59.248+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-02T23:16:04.601+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015494}
-{"level":"INFO","time":"2025-12-02T23:16:16.115+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0093575}
-{"level":"INFO","time":"2025-12-02T23:17:18.754+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":200,"method":"POST","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0081005}
-{"level":"INFO","time":"2025-12-02T23:17:26.166+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T16:26:10.504+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:26:10.521+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"ERROR","time":"2025-12-04T16:26:10.522+0800","caller":"autoplay-hub/main.go:44","msg":"init redis failed","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
-{"level":"INFO","time":"2025-12-04T16:26:56.800+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:26:56.813+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T16:26:56.814+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T16:26:56.814+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T16:27:33.459+0800","caller":"controller/script.go:70","msg":"logic.GetAllScriptList err","error":"missing destination name created_at in *[]*models.Script"}
-{"level":"INFO","time":"2025-12-04T16:27:33.459+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0110129}
-{"level":"INFO","time":"2025-12-04T16:29:56.332+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T16:30:04.523+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:30:04.536+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T16:30:04.536+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T16:30:04.536+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T16:30:09.878+0800","caller":"controller/script.go:70","msg":"logic.GetAllScriptList err","error":"must pass a pointer, not a value, to StructScan destination"}
-{"level":"INFO","time":"2025-12-04T16:30:09.878+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010437}
-{"level":"ERROR","time":"2025-12-04T16:30:11.132+0800","caller":"controller/script.go:70","msg":"logic.GetAllScriptList err","error":"must pass a pointer, not a value, to StructScan destination"}
-{"level":"INFO","time":"2025-12-04T16:30:11.132+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0018476}
-{"level":"INFO","time":"2025-12-04T16:31:42.545+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T16:31:49.140+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:31:49.154+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T16:31:49.155+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T16:31:49.155+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T16:31:53.979+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0052161}
-{"level":"INFO","time":"2025-12-04T16:32:14.559+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"page=1&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011726}
-{"level":"INFO","time":"2025-12-04T16:32:19.722+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005056}
-{"level":"INFO","time":"2025-12-04T16:32:40.009+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015816}
-{"level":"INFO","time":"2025-12-04T16:33:27.916+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0018274}
-{"level":"INFO","time":"2025-12-04T16:33:34.881+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0007165}
-{"level":"INFO","time":"2025-12-04T16:33:35.666+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0007992}
-{"level":"INFO","time":"2025-12-04T16:34:44.410+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005198}
-{"level":"INFO","time":"2025-12-04T16:34:57.753+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0012646}
-{"level":"INFO","time":"2025-12-04T16:53:31.179+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T16:53:38.580+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:53:38.595+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T16:53:38.595+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T16:53:38.595+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T16:53:50.040+0800","caller":"controller/script.go:96","msg":"logic.GetScriptDetail err","error":"sql: no rows in result set"}
-{"level":"INFO","time":"2025-12-04T16:53:50.040+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0024517}
-{"level":"INFO","time":"2025-12-04T16:55:43.107+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T16:55:49.417+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T16:55:49.428+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T16:55:49.429+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T16:55:49.429+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T16:55:54.052+0800","caller":"logic/script.go:63","msg":"mysql.CheckUerIDByScriptID failed","user_id":187268018999296,"error":"sql: no rows in result set"}
-{"level":"ERROR","time":"2025-12-04T16:55:54.052+0800","caller":"controller/script.go:96","msg":"logic.GetScriptDetail err","error":"sql: no rows in result set"}
-{"level":"INFO","time":"2025-12-04T16:55:54.052+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036933}
-{"level":"INFO","time":"2025-12-04T16:57:55.483+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0009573}
-{"level":"ERROR","time":"2025-12-04T16:58:04.198+0800","caller":"logic/script.go:63","msg":"mysql.CheckUerIDByScriptID failed","user_id":187268018999296,"error":"sql: no rows in result set"}
-{"level":"ERROR","time":"2025-12-04T16:58:04.198+0800","caller":"controller/script.go:96","msg":"logic.GetScriptDetail err","error":"sql: no rows in result set"}
-{"level":"INFO","time":"2025-12-04T16:58:04.198+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010554}
-{"level":"INFO","time":"2025-12-04T16:59:56.588+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:00:02.664+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:00:02.676+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:00:02.676+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:00:02.676+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T17:00:07.283+0800","caller":"logic/script.go:63","msg":"mysql.CheckUerIDByScriptID failed","user_id":187268018999296,"uid":0,"error":"sql: no rows in result set"}
-{"level":"ERROR","time":"2025-12-04T17:00:07.283+0800","caller":"controller/script.go:96","msg":"logic.GetScriptDetail err","error":"sql: no rows in result set"}
-{"level":"INFO","time":"2025-12-04T17:00:07.283+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0045831}
-{"level":"INFO","time":"2025-12-04T17:01:52.459+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:01:59.193+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:01:59.206+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:01:59.206+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:01:59.206+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T17:02:03.761+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020298}
-{"level":"INFO","time":"2025-12-04T17:02:07.478+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005114}
-{"level":"INFO","time":"2025-12-04T17:02:10.896+0800","caller":"logger/logger.go:73","msg":"/api/v1/script","status":404,"method":"GET","path":"/api/v1/script","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"ERROR","time":"2025-12-04T17:02:12.398+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"sql: no rows in result set"}
-{"level":"ERROR","time":"2025-12-04T17:02:12.398+0800","caller":"controller/script.go:96","msg":"logic.GetScriptDetail err","error":"sql: no rows in result set"}
-{"level":"INFO","time":"2025-12-04T17:02:12.398+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005379}
-{"level":"INFO","time":"2025-12-04T17:06:45.401+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:06:52.505+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:06:52.518+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:06:52.519+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:06:52.519+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T17:06:56.789+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"ERROR","time":"2025-12-04T17:06:56.789+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:06:56.790+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0022248}
-{"level":"ERROR","time":"2025-12-04T17:06:57.962+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"ERROR","time":"2025-12-04T17:06:57.962+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:06:57.962+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005399}
-{"level":"ERROR","time":"2025-12-04T17:06:59.332+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"ERROR","time":"2025-12-04T17:06:59.332+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:06:59.332+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0009145}
-{"level":"INFO","time":"2025-12-04T17:07:40.625+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:07:49.904+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:07:49.916+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:07:49.917+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:07:49.917+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T17:07:54.423+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:07:54.423+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0013674}
-{"level":"ERROR","time":"2025-12-04T17:07:55.560+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:07:55.560+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005053}
-{"level":"INFO","time":"2025-12-04T17:08:18.179+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0016447}
-{"level":"ERROR","time":"2025-12-04T17:08:30.757+0800","caller":"logic/script.go:64","msg":"mysql.CheckUerIDByScriptID failed","user_id":187366522228736,"uid":187268018999296}
-{"level":"INFO","time":"2025-12-04T17:08:30.757+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005163}
-{"level":"ERROR","time":"2025-12-04T17:08:38.651+0800","caller":"logic/script.go:64","msg":"mysql.CheckUerIDByScriptID failed","user_id":187366522228736,"uid":187268018999296}
-{"level":"INFO","time":"2025-12-04T17:08:38.651+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011488}
-{"level":"INFO","time":"2025-12-04T17:11:45.985+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:11:56.433+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:11:56.446+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:11:56.446+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:11:56.446+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T17:12:00.869+0800","caller":"logic/script.go:64","msg":"mysql.CheckUerIDByScriptID failed","user_id":187366522228736,"uid":187268018999296}
-{"level":"INFO","time":"2025-12-04T17:12:00.870+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0016621}
-{"level":"ERROR","time":"2025-12-04T17:12:02.604+0800","caller":"logic/script.go:64","msg":"mysql.CheckUerIDByScriptID failed","user_id":187366522228736,"uid":187268018999296}
-{"level":"INFO","time":"2025-12-04T17:12:02.604+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005041}
-{"level":"ERROR","time":"2025-12-04T17:12:14.557+0800","caller":"logic/script.go:64","msg":"mysql.CheckUerIDByScriptID failed","user_id":187366522228736,"uid":187268018999296}
-{"level":"INFO","time":"2025-12-04T17:12:14.557+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011756}
-{"level":"INFO","time":"2025-12-04T17:15:38.085+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:15:47.088+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:15:47.102+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:15:47.102+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:15:47.102+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T17:15:52.095+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T17:15:52.095+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0013431}
-{"level":"ERROR","time":"2025-12-04T17:15:54.504+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T17:15:54.504+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011373}
-{"level":"ERROR","time":"2025-12-04T17:15:57.398+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:15:57.398+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.001439}
-{"level":"ERROR","time":"2025-12-04T17:16:00.135+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T17:16:00.135+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014584}
-{"level":"ERROR","time":"2025-12-04T17:24:32.500+0800","caller":"controller/script.go:100","msg":"logic.GetScriptDetail err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T17:24:32.500+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0012982}
-{"level":"INFO","time":"2025-12-04T17:26:08.478+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T17:26:17.067+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T17:26:17.081+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T17:26:17.082+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T17:26:17.082+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T17:26:21.908+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0012518}
-{"level":"INFO","time":"2025-12-04T17:26:26.191+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"GET","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.000532}
-{"level":"ERROR","time":"2025-12-04T17:26:28.239+0800","caller":"logic/script.go:58","msg":"mysql.GetScriptDetailByScriptID failed","script_id":3,"error":"脚本不存在"}
-{"level":"INFO","time":"2025-12-04T17:26:28.239+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/3","status":200,"method":"GET","path":"/api/v1/script/3","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005046}
-{"level":"INFO","time":"2025-12-04T17:27:30.120+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T22:03:44.852+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T22:03:44.867+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T22:03:44.875+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T22:03:44.875+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T22:04:02.780+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0163934}
-{"level":"INFO","time":"2025-12-04T22:04:07.390+0800","caller":"logger/logger.go:73","msg":"/api/v1/scripts","status":200,"method":"GET","path":"/api/v1/scripts","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0006117}
-{"level":"INFO","time":"2025-12-04T22:04:40.636+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.002337}
-{"level":"INFO","time":"2025-12-04T22:04:53.846+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"GET","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0035351}
-{"level":"ERROR","time":"2025-12-04T22:05:26.470+0800","caller":"controller/script.go:127","msg":"UpdateScriptHandler logic.UpdateScript err","error":"sql: expected 4 arguments, got 3"}
-{"level":"INFO","time":"2025-12-04T22:05:26.470+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"PATCH","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0039497}
-{"level":"INFO","time":"2025-12-04T22:05:55.802+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T22:06:02.551+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T22:06:02.565+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T22:06:02.566+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T22:06:02.566+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T22:06:10.807+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"PATCH","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0250964}
-{"level":"INFO","time":"2025-12-04T22:14:51.084+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T22:14:57.939+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T22:14:57.952+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T22:14:57.953+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T22:14:57.954+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-04T22:15:05.922+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"PATCH","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0082587}
-{"level":"INFO","time":"2025-12-04T22:15:17.845+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020643}
-{"level":"ERROR","time":"2025-12-04T22:15:32.523+0800","caller":"controller/script.go:132","msg":"UpdateScriptHandler logic.UpdateScript err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T22:15:32.523+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1","status":200,"method":"PATCH","path":"/api/v1/script/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005042}
-{"level":"INFO","time":"2025-12-04T22:27:58.085+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-04T22:28:06.656+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-04T22:28:06.669+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-04T22:28:06.670+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-04T22:28:06.670+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-04T22:28:22.730+0800","caller":"controller/script.go:161","msg":"logic.DeleteScript err","error":"用户不对应"}
-{"level":"INFO","time":"2025-12-04T22:28:22.730+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"DELETE","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036457}
-{"level":"INFO","time":"2025-12-04T22:28:44.000+0800","caller":"logger/logger.go:73","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008252}
-{"level":"INFO","time":"2025-12-04T22:28:55.456+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2","status":200,"method":"DELETE","path":"/api/v1/script/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.009567}
-{"level":"INFO","time":"2025-12-04T23:05:23.368+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T16:20:18.881+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T16:20:18.901+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T16:20:18.906+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T16:20:18.906+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T16:21:56.701+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T16:24:33.860+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T16:24:33.878+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T16:24:33.879+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T16:24:33.879+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-05T16:25:21.679+0800","caller":"controller/task.go:29","msg":"logic.ScriptRun error","error":"Error 1292 (22007): Incorrect datetime value: '0000-00-00 00:00:00' for column 'executed_at' at row 1"}
-{"level":"INFO","time":"2025-12-05T16:25:21.679+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0070745}
-{"level":"INFO","time":"2025-12-05T16:26:00.173+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T16:26:06.953+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T16:26:06.964+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T16:26:06.965+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T16:26:06.966+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T16:26:11.868+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0133238}
-{"level":"INFO","time":"2025-12-05T17:16:03.878+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T17:16:10.920+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T17:16:10.933+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T17:16:10.934+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T17:16:10.934+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T17:16:23.750+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.012251}
-{"level":"INFO","time":"2025-12-05T17:18:41.645+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0080076}
-{"level":"INFO","time":"2025-12-05T17:19:45.619+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0073702}
-{"level":"INFO","time":"2025-12-05T17:28:38.788+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0063754}
-{"level":"INFO","time":"2025-12-05T17:31:35.704+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T17:31:43.312+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T17:31:43.328+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T17:31:49.705+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0061644}
-{"level":"INFO","time":"2025-12-05T17:32:06.536+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0071495}
-{"level":"INFO","time":"2025-12-05T17:33:26.009+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T17:33:33.960+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T17:33:33.974+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T17:33:39.088+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0082301}
-{"level":"INFO","time":"2025-12-05T17:34:31.009+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0048218}
-{"level":"INFO","time":"2025-12-05T17:35:22.790+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0052305}
-{"level":"INFO","time":"2025-12-05T17:43:28.239+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0077761}
-{"level":"INFO","time":"2025-12-05T18:08:51.364+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0058137}
-{"level":"INFO","time":"2025-12-05T18:27:38.197+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:27:45.105+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:27:45.118+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:27:45.119+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:27:45.119+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:27:56.153+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014626}
-{"level":"ERROR","time":"2025-12-05T18:28:16.901+0800","caller":"controller/task.go:71","msg":"logic.GetAllScriptList err","error":"sql: Scan error on column index 5, name \"executed_at\": converting NULL to int64 is unsupported"}
-{"level":"INFO","time":"2025-12-05T18:28:16.901+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005046}
-{"level":"INFO","time":"2025-12-05T18:29:23.834+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:29:30.430+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:29:30.441+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:29:30.442+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:29:30.442+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:29:34.494+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0022543}
-{"level":"INFO","time":"2025-12-05T18:30:15.104+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0008055}
-{"level":"INFO","time":"2025-12-05T18:30:58.558+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005405}
-{"level":"INFO","time":"2025-12-05T18:31:14.480+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0014929}
-{"level":"INFO","time":"2025-12-05T18:31:18.364+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015828}
-{"level":"INFO","time":"2025-12-05T18:31:24.152+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0012411}
-{"level":"INFO","time":"2025-12-05T18:33:24.450+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:33:31.062+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:33:31.075+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:33:31.076+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:33:31.076+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:33:36.868+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=2","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0038845}
-{"level":"INFO","time":"2025-12-05T18:33:42.168+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=1","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0022638}
-{"level":"INFO","time":"2025-12-05T18:33:45.118+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=1&size=3","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0020048}
-{"level":"INFO","time":"2025-12-05T18:33:51.294+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks","status":200,"method":"GET","path":"/api/v1/tasks","query":"page=2&size=3","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005062}
-{"level":"INFO","time":"2025-12-05T18:46:36.313+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:46:43.031+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:46:43.044+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:46:55.239+0800","caller":"logger/logger.go:73","msg":"/api/v1/tasks/1","status":404,"method":"GET","path":"/api/v1/tasks/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0}
-{"level":"ERROR","time":"2025-12-05T18:47:30.649+0800","caller":"logic/task.go:95","msg":"mysql.GetTaskDetailByScriptID failed","task_id":1,"error":"sql: Scan error on column index 6, name \"created_at\": converting driver.Value type time.Time (\"2025-12-05 16:26:11 +0000 UTC\") to a int64: invalid syntax"}
-{"level":"ERROR","time":"2025-12-05T18:47:30.649+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"sql: Scan error on column index 6, name \"created_at\": converting driver.Value type time.Time (\"2025-12-05 16:26:11 +0000 UTC\") to a int64: invalid syntax"}
-{"level":"INFO","time":"2025-12-05T18:47:30.649+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0015431}
-{"level":"INFO","time":"2025-12-05T18:48:44.478+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:48:51.433+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:48:51.445+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-05T18:48:56.530+0800","caller":"logic/task.go:101","msg":"mysql.CheckUerIDByTaskID failed","user_id":187268018999296,"uid":0,"error":"Error 1054 (42S22): Unknown column 'task_id' in 'where clause'"}
-{"level":"ERROR","time":"2025-12-05T18:48:56.530+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"Error 1054 (42S22): Unknown column 'task_id' in 'where clause'"}
-{"level":"INFO","time":"2025-12-05T18:48:56.530+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0036865}
-{"level":"INFO","time":"2025-12-05T18:49:50.075+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:49:56.413+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:49:56.425+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:49:56.426+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:49:56.426+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:50:02.089+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/1","status":200,"method":"GET","path":"/api/v1/task/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0039903}
-{"level":"INFO","time":"2025-12-05T18:50:39.329+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:50:45.751+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:50:45.763+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:50:45.764+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:50:45.764+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-05T18:50:50.789+0800","caller":"logic/task.go:95","msg":"mysql.GetTaskDetailByScriptID failed","task_id":2,"error":"sql: Scan error on column index 7, name \"executed_at\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
-{"level":"ERROR","time":"2025-12-05T18:50:50.789+0800","caller":"controller/task.go:107","msg":"logic.GetScriptDetail err","error":"sql: Scan error on column index 7, name \"executed_at\": unsupported Scan, storing driver.Value type <nil> into type *time.Time"}
-{"level":"INFO","time":"2025-12-05T18:50:50.789+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0031506}
-{"level":"INFO","time":"2025-12-05T18:51:11.203+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T18:51:14.708+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T18:51:14.721+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T18:51:18.907+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0023133}
-{"level":"INFO","time":"2025-12-05T18:51:25.211+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010274}
-{"level":"INFO","time":"2025-12-05T18:55:27.339+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/2","status":200,"method":"GET","path":"/api/v1/task/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010225}
-{"level":"INFO","time":"2025-12-05T18:55:30.433+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005645}
-{"level":"INFO","time":"2025-12-05T19:15:22.625+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0010739}
-{"level":"INFO","time":"2025-12-05T19:15:25.636+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/12","status":200,"method":"GET","path":"/api/v1/task/12","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0011913}
-{"level":"INFO","time":"2025-12-05T19:15:33.449+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T19:29:19.085+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T19:29:19.100+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T19:29:19.101+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T19:29:19.101+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-05T19:29:53.966+0800","caller":"controller/task.go:41","msg":"logic.ScriptRun error","error":"Error 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`autoplay_hub_go`.`tasks`, CONSTRAINT `fk_tasks_script_id` FOREIGN KEY (`script_id`) REFERENCES `scripts` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)"}
-{"level":"INFO","time":"2025-12-05T19:29:53.966+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/2/run","status":200,"method":"POST","path":"/api/v1/script/2/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0107788}
-{"level":"INFO","time":"2025-12-05T19:32:35.608+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0082294}
-{"level":"INFO","time":"2025-12-05T19:52:11.414+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T19:52:22.477+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T19:52:22.531+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T19:52:22.535+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T19:52:22.535+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T19:52:33.221+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.05046}
-{"level":"INFO","time":"2025-12-05T20:09:14.918+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T20:09:23.718+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T20:09:23.733+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T20:09:30.614+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/1/run","status":200,"method":"POST","path":"/api/v1/script/1/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0102748}
-{"level":"INFO","time":"2025-12-05T20:25:17.371+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T20:51:48.117+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T20:51:48.130+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T20:51:48.133+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T20:51:48.133+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T20:54:30.591+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15/stop","status":200,"method":"PATCH","path":"/api/v1/task/15/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0302191}
-{"level":"INFO","time":"2025-12-05T21:01:36.927+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T21:01:44.605+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T21:01:44.618+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T21:01:44.619+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T21:01:44.619+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T21:01:56.539+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0890056}
-{"level":"INFO","time":"2025-12-05T21:07:19.168+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T21:07:28.749+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T21:07:28.763+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T21:07:35.255+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0570651}
-{"level":"INFO","time":"2025-12-05T21:07:36.130+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0468428}
-{"level":"INFO","time":"2025-12-05T21:07:50.929+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0653369}
-{"level":"INFO","time":"2025-12-05T21:08:57.484+0800","caller":"logger/logger.go:73","msg":"/api/v1/devices","status":200,"method":"GET","path":"/api/v1/devices","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0538683}
-{"level":"INFO","time":"2025-12-05T21:32:15.494+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T21:32:23.866+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T21:32:23.883+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T21:33:15.663+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15","status":200,"method":"PATCH","path":"/api/v1/task/15","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0104574}
-{"level":"INFO","time":"2025-12-05T21:33:28.470+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005061}
-{"level":"INFO","time":"2025-12-05T21:33:31.597+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005049}
-{"level":"INFO","time":"2025-12-05T21:34:38.605+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T21:34:45.323+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T21:34:45.335+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T21:34:45.337+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T21:34:45.337+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"ERROR","time":"2025-12-05T21:34:50.068+0800","caller":"logic/task.go:135","msg":"mysql.CheckTaskExistsByID failed","error":"任务不存在"}
-{"level":"ERROR","time":"2025-12-05T21:34:50.068+0800","caller":"controller/task.go:168","msg":"logic.UpdateTask err","error":"任务不存在"}
-{"level":"INFO","time":"2025-12-05T21:34:50.068+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"PATCH","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0029366}
-{"level":"INFO","time":"2025-12-05T21:42:37.678+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-12-05T21:43:01.646+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
-{"level":"INFO","time":"2025-12-05T21:43:01.658+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
-{"level":"INFO","time":"2025-12-05T21:43:01.659+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
-{"level":"INFO","time":"2025-12-05T21:43:01.659+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
-{"level":"INFO","time":"2025-12-05T21:43:12.875+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/15","status":200,"method":"DELETE","path":"/api/v1/task/15","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0087495}
-{"level":"ERROR","time":"2025-12-05T21:43:22.083+0800","caller":"logic/task.go:149","msg":"mysql.CheckTaskExistsByID failed","error":"任务不存在"}
-{"level":"ERROR","time":"2025-12-05T21:43:22.083+0800","caller":"controller/task.go:190","msg":"logic.DeleteTask err","error":"任务不存在"}
-{"level":"INFO","time":"2025-12-05T21:43:22.083+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/17","status":200,"method":"DELETE","path":"/api/v1/task/17","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0005183}
+2025-12-07 21:45:36 - runner - INFO - runner log init success
+2025-12-07 21:45:36 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T21:45:38.336+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0107608}
+2025-12-07 21:45:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 21:45:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 21:45:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+2025-12-07 21:45:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/rotationwatcher.jar
+2025-12-07 21:45:38 - airtest.core.android.rotation - DEBUG - install_rotationwatcher skipped
+2025-12-07 21:45:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+2025-12-07 21:45:39 - airtest.utils.nbsp - DEBUG - [rotation_server]b'0'
+2025-12-07 21:45:39 - airtest.core.android.rotation - INFO - update orientation None->0
+2025-12-07 21:45:39 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell wm size
+2025-12-07 21:45:39 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.sf.lcd_density
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys SurfaceFlinger
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys input
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getevent -p
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls "/data/local/tmp/minicap"
+2025-12-07 21:45:40 - airtest.core.android.cap_methods.minicap - DEBUG - install minicap
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.product.cpu.abi
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.preview_sdk
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.release
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r /data/local/tmp/minicap
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mkdir -p /data/local/tmp/minicap
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 push D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\stf_libs\x86_64\minicap /data/local/tmp/minicap
+2025-12-07 21:45:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell cp -frp "/data/local/tmp/minicap/*" "/data/local/tmp/minicap"
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mv "/data/local/tmp/minicap" "/data/local/tmp/minicap"
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r "/data/local/tmp/minicap"
+2025-12-07 21:45:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - b''
+2025-12-07 21:45:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - b"mv: bad '/data/local/tmp/minicap': Invalid argument\r\n"
+2025-12-07 21:45:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - Minicap setup up failed!
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys package com.netease.nie.yosemite
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:16366 localabstract:javacap_16366
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell pm path com.netease.nie.yosemite
+2025-12-07 21:45:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell CLASSPATH=/data/app/~~0YoWavpOFFHphCW7qRbB3A==/com.netease.nie.yosemite-eYS6dYyXI9mETUGbpymPvQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_16366 -lazy 2>&1
+2025-12-07 21:45:41 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'Capture server listening on @javacap_16366'
+2025-12-07 21:45:41 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Initializing ScreenshotManagerWrapper. SDK_INT: 32'
+2025-12-07 21:45:41 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Android12PlusScreenshotInjector init start...'
+2025-12-07 21:45:41 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Reflection init success'
+2025-12-07 21:45:42 - airtest.core.android.cap_methods.javacap - DEBUG - (1, 3, 0, 1080, 1920, 0, 0, 0, 1)
+2025-12-07 21:45:43 - airtest.core.api - INFO - Try finding: Template(D:/CodeProgram/Go/autoplay-hub/recources/icons/arkicon.png)
+2025-12-07 21:45:43 - airtest.core.api - DEBUG - try match with MultiScaleTemplateMatchingPre
+2025-12-07 21:45:43 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.00 s.
+2025-12-07 21:45:43 - airtest.core.api - DEBUG - try match with TemplateMatching
+2025-12-07 21:45:43 - airtest.aircv.template_matching - DEBUG - [Template] threshold=0.7, result={'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242}
+2025-12-07 21:45:43 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.05 s.
+2025-12-07 21:45:43 - airtest.core.api - DEBUG - match result: {'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242, 'time': 0.04999494552612305}
+2025-12-07 21:45:43 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/maxpresent.jar
+2025-12-07 21:45:43 - airtest.core.android.touch_methods.maxtouch - DEBUG - install_maxtouch skipped
+2025-12-07 21:45:43 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:41625 localabstract:maxpresent_41625
+2025-12-07 21:45:43 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_41625
+2025-12-07 21:45:43 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Metrics Message : 1920.0=====1080.0'
+2025-12-07 21:45:43 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Start local socket (maxpresent_41625) server...'
+2025-12-07 21:45:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:16366
+2025-12-07 21:45:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:41625
+2025-12-07 21:45:44 - airtest.utils.nbsp - DEBUG - [rotation_server]b''
+2025-12-07 21:45:44 - airtest.utils.nbsp - DEBUG - [javacap_sever]b''
+2025-12-07 21:45:44 - airtest.utils.nbsp - DEBUG - [airtouch_server]b''
+2025-12-07 21:45:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:41625
+2025-12-07 21:45:57 - runner - INFO - runner log init success
+2025-12-07 21:45:57 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T21:46:01.786+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.009067}
+2025-12-07 21:46:02 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 21:46:02 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 21:46:02 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+2025-12-07 21:46:02 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/rotationwatcher.jar
+2025-12-07 21:46:02 - airtest.core.android.rotation - DEBUG - install_rotationwatcher skipped
+2025-12-07 21:46:02 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+2025-12-07 21:46:02 - airtest.utils.nbsp - DEBUG - [rotation_server]b'0'
+2025-12-07 21:46:03 - airtest.core.android.rotation - INFO - update orientation None->0
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell wm size
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.sf.lcd_density
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys SurfaceFlinger
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys input
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getevent -p
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls "/data/local/tmp/minicap"
+2025-12-07 21:46:03 - airtest.core.android.cap_methods.minicap - DEBUG - install minicap
+2025-12-07 21:46:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.product.cpu.abi
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.preview_sdk
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.release
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r /data/local/tmp/minicap
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mkdir -p /data/local/tmp/minicap
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 push D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\stf_libs\x86_64\minicap /data/local/tmp/minicap
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell cp -frp "/data/local/tmp/minicap/*" "/data/local/tmp/minicap"
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mv "/data/local/tmp/minicap" "/data/local/tmp/minicap"
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r "/data/local/tmp/minicap"
+2025-12-07 21:46:04 - airtest.core.android.cap_methods.screen_proxy - ERROR - b''
+2025-12-07 21:46:04 - airtest.core.android.cap_methods.screen_proxy - ERROR - b"mv: bad '/data/local/tmp/minicap': Invalid argument\r\n"
+2025-12-07 21:46:04 - airtest.core.android.cap_methods.screen_proxy - ERROR - Minicap setup up failed!
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys package com.netease.nie.yosemite
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:45699 localabstract:javacap_45699
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell pm path com.netease.nie.yosemite
+2025-12-07 21:46:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell CLASSPATH=/data/app/~~0YoWavpOFFHphCW7qRbB3A==/com.netease.nie.yosemite-eYS6dYyXI9mETUGbpymPvQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_45699 -lazy 2>&1
+2025-12-07 21:46:04 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'Capture server listening on @javacap_45699'
+2025-12-07 21:46:04 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Initializing ScreenshotManagerWrapper. SDK_INT: 32'
+2025-12-07 21:46:04 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Android12PlusScreenshotInjector init start...'
+2025-12-07 21:46:04 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Reflection init success'
+2025-12-07 21:46:05 - airtest.core.android.cap_methods.javacap - DEBUG - (1, 3, 0, 1080, 1920, 0, 0, 0, 1)
+2025-12-07 21:46:06 - airtest.core.api - INFO - Try finding: Template(D:/CodeProgram/Go/autoplay-hub/recources/icons/arkicon.png)
+2025-12-07 21:46:06 - airtest.core.api - DEBUG - try match with MultiScaleTemplateMatchingPre
+2025-12-07 21:46:06 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.00 s.
+2025-12-07 21:46:06 - airtest.core.api - DEBUG - try match with TemplateMatching
+2025-12-07 21:46:06 - airtest.aircv.template_matching - DEBUG - [Template] threshold=0.7, result={'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242}
+2025-12-07 21:46:06 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.04 s.
+2025-12-07 21:46:06 - airtest.core.api - DEBUG - match result: {'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242, 'time': 0.04320216178894043}
+2025-12-07 21:46:06 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/maxpresent.jar
+2025-12-07 21:46:06 - airtest.core.android.touch_methods.maxtouch - DEBUG - install_maxtouch skipped
+2025-12-07 21:46:06 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:37407 localabstract:maxpresent_37407
+2025-12-07 21:46:06 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_37407
+2025-12-07 21:46:06 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Metrics Message : 1920.0=====1080.0'
+2025-12-07 21:46:06 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Start local socket (maxpresent_37407) server...'
+2025-12-07 21:46:07 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:45699
+2025-12-07 21:46:07 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:37407
+2025-12-07 21:46:07 - airtest.utils.nbsp - DEBUG - [rotation_server]b''
+2025-12-07 21:46:07 - airtest.utils.nbsp - DEBUG - [javacap_sever]b''
+2025-12-07 21:46:07 - airtest.utils.nbsp - DEBUG - [airtouch_server]b''
+2025-12-07 21:46:07 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:37407
+2025-12-07 21:47:28 - runner - INFO - runner log init success
+2025-12-07 21:47:28 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T21:47:30.646+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0067161}
+2025-12-07 21:47:30 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 21:47:30 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 21:47:31 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+2025-12-07 21:47:31 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/rotationwatcher.jar
+2025-12-07 21:47:31 - airtest.core.android.rotation - DEBUG - install_rotationwatcher skipped
+2025-12-07 21:47:31 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+2025-12-07 21:47:31 - airtest.utils.nbsp - DEBUG - [rotation_server]b'0'
+2025-12-07 21:47:32 - airtest.core.android.rotation - INFO - update orientation None->0
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell wm size
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.sf.lcd_density
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys SurfaceFlinger
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys input
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getevent -p
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls "/data/local/tmp/minicap"
+2025-12-07 21:47:32 - airtest.core.android.cap_methods.minicap - DEBUG - install minicap
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.product.cpu.abi
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.preview_sdk
+2025-12-07 21:47:32 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.release
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r /data/local/tmp/minicap
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mkdir -p /data/local/tmp/minicap
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 push D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\stf_libs\x86_64\minicap /data/local/tmp/minicap
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell cp -frp "/data/local/tmp/minicap/*" "/data/local/tmp/minicap"
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mv "/data/local/tmp/minicap" "/data/local/tmp/minicap"
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r "/data/local/tmp/minicap"
+2025-12-07 21:47:33 - airtest.core.android.cap_methods.screen_proxy - ERROR - b''
+2025-12-07 21:47:33 - airtest.core.android.cap_methods.screen_proxy - ERROR - b"mv: bad '/data/local/tmp/minicap': Invalid argument\r\n"
+2025-12-07 21:47:33 - airtest.core.android.cap_methods.screen_proxy - ERROR - Minicap setup up failed!
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys package com.netease.nie.yosemite
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:47152 localabstract:javacap_47152
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell pm path com.netease.nie.yosemite
+2025-12-07 21:47:33 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell CLASSPATH=/data/app/~~0YoWavpOFFHphCW7qRbB3A==/com.netease.nie.yosemite-eYS6dYyXI9mETUGbpymPvQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_47152 -lazy 2>&1
+2025-12-07 21:47:33 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'Capture server listening on @javacap_47152'
+2025-12-07 21:47:33 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Initializing ScreenshotManagerWrapper. SDK_INT: 32'
+2025-12-07 21:47:33 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Android12PlusScreenshotInjector init start...'
+2025-12-07 21:47:33 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Reflection init success'
+2025-12-07 21:47:34 - airtest.core.android.cap_methods.javacap - DEBUG - (1, 3, 0, 1080, 1920, 0, 0, 0, 1)
+2025-12-07 21:47:35 - airtest.core.api - INFO - Try finding: Template(D:/CodeProgram/Go/autoplay-hub/recources/icons/arkicon.png)
+2025-12-07 21:47:35 - airtest.core.api - DEBUG - try match with MultiScaleTemplateMatchingPre
+2025-12-07 21:47:35 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.00 s.
+2025-12-07 21:47:35 - airtest.core.api - DEBUG - try match with TemplateMatching
+2025-12-07 21:47:35 - airtest.aircv.template_matching - DEBUG - [Template] threshold=0.7, result={'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242}
+2025-12-07 21:47:35 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.05 s.
+2025-12-07 21:47:35 - airtest.core.api - DEBUG - match result: {'result': (155, 1521), 'rectangle': ((85, 1429), (85, 1614), (225, 1614), (225, 1429)), 'confidence': 0.8144254684448242, 'time': 0.05101442337036133}
+2025-12-07 21:47:35 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/maxpresent.jar
+2025-12-07 21:47:35 - airtest.core.android.touch_methods.maxtouch - DEBUG - install_maxtouch skipped
+2025-12-07 21:47:35 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:28175 localabstract:maxpresent_28175
+2025-12-07 21:47:35 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_28175
+2025-12-07 21:47:35 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Metrics Message : 1920.0=====1080.0'
+2025-12-07 21:47:35 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Start local socket (maxpresent_28175) server...'
+2025-12-07 21:47:36 - airtest.utils.nbsp - DEBUG - [rotation_server]b'90'
+2025-12-07 21:47:36 - airtest.core.android.rotation - INFO - update orientation 0->1
+2025-12-07 21:47:36 - airtest.core.android.cap_methods.minicap - DEBUG - update_rotation: 90
+2025-12-07 21:47:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:47152
+2025-12-07 21:47:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:28175
+2025-12-07 21:47:38 - airtest.utils.nbsp - DEBUG - [rotation_server]b''
+2025-12-07 21:47:38 - airtest.utils.nbsp - DEBUG - [javacap_sever]b''
+2025-12-07 21:47:38 - airtest.utils.nbsp - DEBUG - [airtouch_server]b''
+2025-12-07 21:47:38 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:28175
+2025-12-07 22:09:50 - runner - INFO - runner log init success
+2025-12-07 22:09:50 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T22:09:54.995+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0790294}
+2025-12-07 22:09:55 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 22:09:55 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 22:09:55 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+2025-12-07 22:09:55 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/rotationwatcher.jar
+2025-12-07 22:09:55 - airtest.core.android.rotation - DEBUG - install_rotationwatcher skipped
+2025-12-07 22:09:55 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+2025-12-07 22:09:55 - airtest.utils.nbsp - DEBUG - [rotation_server]b'90'
+2025-12-07 22:09:56 - airtest.core.android.rotation - INFO - update orientation None->1
+2025-12-07 22:09:56 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell wm size
+2025-12-07 22:09:56 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.sf.lcd_density
+2025-12-07 22:09:56 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys SurfaceFlinger
+2025-12-07 22:09:56 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys input
+2025-12-07 22:09:56 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getevent -p
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls "/data/local/tmp/minicap"
+2025-12-07 22:09:57 - airtest.core.android.cap_methods.minicap - DEBUG - install minicap
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.product.cpu.abi
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.preview_sdk
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.release
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r /data/local/tmp/minicap
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mkdir -p /data/local/tmp/minicap
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 push D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\stf_libs\x86_64\minicap /data/local/tmp/minicap
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell cp -frp "/data/local/tmp/minicap/*" "/data/local/tmp/minicap"
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mv "/data/local/tmp/minicap" "/data/local/tmp/minicap"
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r "/data/local/tmp/minicap"
+2025-12-07 22:09:57 - airtest.core.android.cap_methods.screen_proxy - ERROR - b''
+2025-12-07 22:09:57 - airtest.core.android.cap_methods.screen_proxy - ERROR - b"mv: bad '/data/local/tmp/minicap': Invalid argument\r\n"
+2025-12-07 22:09:57 - airtest.core.android.cap_methods.screen_proxy - ERROR - Minicap setup up failed!
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys package com.netease.nie.yosemite
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:18046 localabstract:javacap_18046
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell pm path com.netease.nie.yosemite
+2025-12-07 22:09:57 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell CLASSPATH=/data/app/~~0YoWavpOFFHphCW7qRbB3A==/com.netease.nie.yosemite-eYS6dYyXI9mETUGbpymPvQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_18046 -lazy 2>&1
+2025-12-07 22:09:58 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'Capture server listening on @javacap_18046'
+2025-12-07 22:09:58 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Initializing ScreenshotManagerWrapper. SDK_INT: 32'
+2025-12-07 22:09:58 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Android12PlusScreenshotInjector init start...'
+2025-12-07 22:09:58 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Reflection init success'
+2025-12-07 22:09:58 - airtest.core.android.cap_methods.javacap - DEBUG - (1, 3, 0, 1920, 1080, 0, 0, 0, 1)
+2025-12-07 22:09:59 - airtest.core.api - INFO - Try finding: Template(D:/CodeProgram/Go/autoplay-hub/recources/icons/arkicon.png)
+2025-12-07 22:09:59 - airtest.core.api - DEBUG - try match with MultiScaleTemplateMatchingPre
+2025-12-07 22:09:59 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.00 s.
+2025-12-07 22:09:59 - airtest.core.api - DEBUG - try match with TemplateMatching
+2025-12-07 22:09:59 - airtest.aircv.template_matching - DEBUG - [Template] threshold=0.7, result={'result': (739, 961), 'rectangle': ((670, 908), (670, 1015), (809, 1015), (809, 908)), 'confidence': 0.8914953470230103}
+2025-12-07 22:09:59 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.04 s.
+2025-12-07 22:09:59 - airtest.core.api - DEBUG - match result: {'result': (739, 961), 'rectangle': ((670, 908), (670, 1015), (809, 1015), (809, 908)), 'confidence': 0.8914953470230103, 'time': 0.04449653625488281}
+2025-12-07 22:09:59 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/maxpresent.jar
+2025-12-07 22:09:59 - airtest.core.android.touch_methods.maxtouch - DEBUG - install_maxtouch skipped
+2025-12-07 22:09:59 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:17457 localabstract:maxpresent_17457
+2025-12-07 22:09:59 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_17457
+2025-12-07 22:10:00 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Metrics Message : 1920.0=====1080.0'
+2025-12-07 22:10:00 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Start local socket (maxpresent_17457) server...'
+2025-12-07 22:10:03 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:18046
+2025-12-07 22:10:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:17457
+2025-12-07 22:10:04 - airtest.utils.nbsp - DEBUG - [rotation_server]b''
+2025-12-07 22:10:04 - airtest.utils.nbsp - DEBUG - [javacap_sever]b''
+2025-12-07 22:10:04 - airtest.utils.nbsp - DEBUG - [airtouch_server]b''
+2025-12-07 22:10:04 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:17457
+2025-12-07 22:14:37 - runner - INFO - runner log init success
+2025-12-07 22:14:37 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T22:14:40.300+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0067174}
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+2025-12-07 22:14:40 - airtest.core.api - INFO - Try finding: Template(D:/CodeProgram/Go/autoplay-hub/recources/icons/arkicon.png)
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls "/data/local/tmp/minicap"
+2025-12-07 22:14:40 - airtest.core.android.cap_methods.minicap - DEBUG - install minicap
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.product.cpu.abi
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.preview_sdk
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.release
+2025-12-07 22:14:40 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r /data/local/tmp/minicap
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mkdir -p /data/local/tmp/minicap
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 push D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\stf_libs\x86_64\minicap /data/local/tmp/minicap
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell cp -frp "/data/local/tmp/minicap/*" "/data/local/tmp/minicap"
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell mv "/data/local/tmp/minicap" "/data/local/tmp/minicap"
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell rm -r "/data/local/tmp/minicap"
+2025-12-07 22:14:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - b''
+2025-12-07 22:14:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - b"mv: bad '/data/local/tmp/minicap': Invalid argument\r\n"
+2025-12-07 22:14:41 - airtest.core.android.cap_methods.screen_proxy - ERROR - Minicap setup up failed!
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys package com.netease.nie.yosemite
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:45487 localabstract:javacap_45487
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell pm path com.netease.nie.yosemite
+2025-12-07 22:14:41 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell CLASSPATH=/data/app/~~0YoWavpOFFHphCW7qRbB3A==/com.netease.nie.yosemite-eYS6dYyXI9mETUGbpymPvQ==/base.apk exec app_process /system/bin com.netease.nie.yosemite.Capture --scale 100 --socket javacap_45487 -lazy 2>&1
+2025-12-07 22:14:42 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'Capture server listening on @javacap_45487'
+2025-12-07 22:14:42 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Initializing ScreenshotManagerWrapper. SDK_INT: 32'
+2025-12-07 22:14:42 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Android12PlusScreenshotInjector init start...'
+2025-12-07 22:14:42 - airtest.utils.nbsp - DEBUG - [javacap_sever]b'DEBUG: Reflection init success'
+2025-12-07 22:14:42 - airtest.core.android.cap_methods.javacap - DEBUG - (1, 3, 0, 1920, 1080, 0, 0, 0, 1)
+2025-12-07 22:14:42 - airtest.core.api - DEBUG - try match with MultiScaleTemplateMatchingPre
+2025-12-07 22:14:42 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.00 s.
+2025-12-07 22:14:42 - airtest.core.api - DEBUG - try match with TemplateMatching
+2025-12-07 22:14:42 - airtest.aircv.template_matching - DEBUG - [Template] threshold=0.7, result={'result': (739, 961), 'rectangle': ((670, 908), (670, 1015), (809, 1015), (809, 908)), 'confidence': 0.8914953470230103}
+2025-12-07 22:14:42 - airtest.aircv.utils - DEBUG - find_best_result() run time is 0.05 s.
+2025-12-07 22:14:42 - airtest.core.api - DEBUG - match result: {'result': (739, 961), 'rectangle': ((670, 908), (670, 1015), (809, 1015), (809, 908)), 'confidence': 0.8914953470230103, 'time': 0.05248832702636719}
+2025-12-07 22:14:42 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/rotationwatcher.jar
+2025-12-07 22:14:42 - airtest.core.android.rotation - DEBUG - install_rotationwatcher skipped
+2025-12-07 22:14:42 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/rotationwatcher.jar /data/local/tmp com.example.rotationwatcher.Main
+2025-12-07 22:14:43 - airtest.utils.nbsp - DEBUG - [rotation_server]b'90'
+2025-12-07 22:14:43 - airtest.core.android.rotation - INFO - update orientation None->1
+2025-12-07 22:14:43 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell wm size
+2025-12-07 22:14:43 - airtest.core.android.cap_methods.minicap - DEBUG - update_rotation: 90
+2025-12-07 22:14:43 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.sf.lcd_density
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys SurfaceFlinger
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell dumpsys input
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getevent -p
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell ls -l /data/local/tmp/maxpresent.jar
+2025-12-07 22:14:44 - airtest.core.android.touch_methods.maxtouch - DEBUG - install_maxtouch skipped
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --no-rebind tcp:39181 localabstract:maxpresent_39181
+2025-12-07 22:14:44 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell app_process -Djava.class.path=/data/local/tmp/maxpresent.jar /data/local/tmp com.netease.maxpresent.MaxPresent socket maxpresent_39181
+2025-12-07 22:14:44 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Metrics Message : 1920.0=====1080.0'
+2025-12-07 22:14:44 - airtest.utils.nbsp - DEBUG - [airtouch_server]b'Start local socket (maxpresent_39181) server...'
+2025-12-07 22:14:47 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:45487
+2025-12-07 22:14:47 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:39181
+2025-12-07 22:14:47 - airtest.utils.nbsp - DEBUG - [rotation_server]b''
+2025-12-07 22:14:47 - airtest.utils.nbsp - DEBUG - [javacap_sever]b''
+2025-12-07 22:14:47 - airtest.utils.nbsp - DEBUG - [airtouch_server]b''
+2025-12-07 22:14:47 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 forward --remove tcp:39181
+{"level":"INFO","time":"2025-12-07T23:15:29.676+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0250465}
+2025-12-07 23:15:36 - runner - INFO - runner log init success
+2025-12-07 23:15:36 - runner - INFO - runner redis ping success
+2025-12-07 23:15:36 - runner - INFO - runner log init success
+2025-12-07 23:15:36 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T23:15:53.272+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0071033}
+2025-12-07 23:17:24 - runner - INFO - runner log init success
+2025-12-07 23:17:24 - runner - INFO - runner redis ping success
+2025-12-07 23:17:24 - runner - INFO - runner log init success
+2025-12-07 23:17:24 - runner - INFO - runner redis ping success
+2025-12-07 23:17:24 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 23:17:25 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 23:17:25 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-07T23:17:45.190+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/85/stop","status":200,"method":"PATCH","path":"/api/v1/task/85/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0156878}
+{"level":"INFO","time":"2025-12-07T23:18:06.721+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/85/stop","status":200,"method":"PATCH","path":"/api/v1/task/85/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.004696}
+{"level":"INFO","time":"2025-12-07T23:19:10.102+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/85/stop","status":200,"method":"PATCH","path":"/api/v1/task/85/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0059356}
+2025-12-07 23:19:35 - runner - INFO - runner log init success
+2025-12-07 23:19:35 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T23:19:38.243+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/85/stop","status":200,"method":"PATCH","path":"/api/v1/task/85/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.008783}
+{"level":"INFO","time":"2025-12-07T23:19:44.751+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0062527}
+2025-12-07 23:19:45 - runner - INFO - runner log init success
+2025-12-07 23:19:45 - runner - INFO - runner redis ping success
+2025-12-07 23:19:45 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 23:19:45 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 23:19:45 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-07T23:19:59.780+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/86/stop","status":200,"method":"PATCH","path":"/api/v1/task/86/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0048465}
+2025-12-07 23:20:55 - runner - INFO - runner log init success
+2025-12-07 23:20:55 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T23:20:59.935+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.005405}
+2025-12-07 23:21:00 - runner - INFO - runner log init success
+2025-12-07 23:21:00 - runner - INFO - runner redis ping success
+2025-12-07 23:21:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 23:21:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 23:21:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-07T23:21:12.593+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/87/stop","status":200,"method":"PATCH","path":"/api/v1/task/87/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0069956}
+{"level":"INFO","time":"2025-12-07T23:21:26.841+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0048031}
+2025-12-07 23:22:00 - runner - INFO - runner log init success
+2025-12-07 23:22:00 - runner - INFO - runner redis ping success
+2025-12-07 23:22:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 23:22:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 23:22:00 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-07T23:22:08.930+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/88/stop","status":200,"method":"PATCH","path":"/api/v1/task/88/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0071413}
+{"level":"INFO","time":"2025-12-07T23:22:21.982+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/88/stop","status":200,"method":"PATCH","path":"/api/v1/task/88/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0053386}
+2025-12-07 23:22:46 - runner - INFO - runner log init success
+2025-12-07 23:22:46 - runner - INFO - runner redis ping success
+{"level":"INFO","time":"2025-12-07T23:22:49.809+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0083013}
+2025-12-07 23:22:50 - runner - INFO - runner log init success
+2025-12-07 23:22:50 - runner - INFO - runner redis ping success
+2025-12-07 23:22:50 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-07 23:22:50 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-07 23:22:50 - airtest.core.android.adb - DEBUG - D:\Android\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-07T23:23:05.965+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/89/stop","status":200,"method":"PATCH","path":"/api/v1/task/89/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0070674}
+{"level":"INFO","time":"2025-12-07T23:26:55.081+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-12-08T18:29:35.710+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-08T18:29:35.763+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"ERROR","time":"2025-12-08T18:29:35.764+0800","caller":"autoplay-hub/main.go:44","msg":"init redis failed","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","time":"2025-12-08T18:30:05.501+0800","caller":"autoplay-hub/main.go:33","msg":"init logger success"}
+{"level":"INFO","time":"2025-12-08T18:30:05.516+0800","caller":"autoplay-hub/main.go:40","msg":"init mysql success"}
+{"level":"INFO","time":"2025-12-08T18:30:05.517+0800","caller":"autoplay-hub/main.go:47","msg":"init redis success"}
+{"level":"INFO","time":"2025-12-08T18:30:05.517+0800","caller":"autoplay-hub/main.go:54","msg":"init snowflake success"}
+2025-12-08 18:31:37 - runner - INFO - runner log init success
+2025-12-08 18:31:37 - runner - INFO - runner redis ping success
+2025-12-08 18:31:37 - asyncio - DEBUG - Using proactor: IocpProactor
+{"level":"INFO","time":"2025-12-08T18:31:51.187+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0496855}
+2025-12-08 18:31:51 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-12-08 18:31:51 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-08 18:31:54 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 connect 127.0.0.1:16384
+2025-12-08 18:31:56 - airtest.core.android.adb - INFO - cannot connect to 127.0.0.1:16384: ����Ŀ�����������ܾ����޷����ӡ� (10061)
+
+2025-12-08 18:31:56 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 wait-for-device
+{"level":"INFO","time":"2025-12-08T18:33:33.506+0800","caller":"logger/logger.go:73","msg":"/api/v1/script/4/run","status":200,"method":"POST","path":"/api/v1/script/4/run","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0118388}
+2025-12-08 18:33:37 - runner - INFO - runner log init success
+2025-12-08 18:33:37 - runner - INFO - runner redis ping success
+2025-12-08 18:33:37 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-12-08 18:33:37 - asyncio - DEBUG - Using proactor: IocpProactor
+2025-12-08 18:33:38 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 get-state
+2025-12-08 18:33:38 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 connect 127.0.0.1:16384
+2025-12-08 18:33:38 - airtest.core.android.adb - INFO - connected to 127.0.0.1:16384
+
+2025-12-08 18:33:38 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 wait-for-device
+2025-12-08 18:33:38 - airtest.core.android.adb - DEBUG - D:\CodeProgram\Go\autoplay-hub\runner\.venv\Lib\site-packages\airtest\core\android\static\adb\windows\adb.exe -s 127.0.0.1:16384 shell getprop ro.build.version.sdk
+{"level":"INFO","time":"2025-12-08T18:34:03.718+0800","caller":"logger/logger.go:73","msg":"/api/v1/task/91/stop","status":200,"method":"PATCH","path":"/api/v1/task/91/stop","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.49.1","errors":"","cost":0.0135196}
+{"level":"INFO","time":"2025-12-08T18:36:31.384+0800","caller":"autoplay-hub/main.go:74","msg":"Shutdown Server ..."}

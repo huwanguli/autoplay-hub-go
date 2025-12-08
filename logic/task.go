@@ -42,12 +42,12 @@ func ScriptRun(p *models.ParamScriptRun) (err error) {
 	}
 	MsgP := &models.Message{
 		DeviceURL: p.DeviceUrl,
+		ScriptID:  p.ScriptID,
 		TaskID:    taskID,
 		Content:   data,
 	}
 	// 此处变为字节码，在python端中需要解码(utf-8)
 	Msg, err := json.Marshal(MsgP)
-	fmt.Println(Msg)
 	if err != nil {
 		zap.L().Error("JSONMarshal Error", zap.Any("Msg", Msg), zap.Error(err))
 		return err

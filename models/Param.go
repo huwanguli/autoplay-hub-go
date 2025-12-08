@@ -1,6 +1,9 @@
 package models
 
-import "time"
+import (
+	"encoding/json"
+	"time"
+)
 
 // ParamRegister RegisterPOST请求中使用
 type ParamRegister struct {
@@ -17,10 +20,10 @@ type ParamLogin struct {
 
 // ParamScript 创建脚本POST中使用
 type ParamScript struct {
-	ScriptName  string `json:"name" binding:"required"`
-	Description string `json:"description"`
-	OwnerID     int64  `json:"owner_id"`
-	Content     string `json:"content" binding:"required"`
+	ScriptName  string          `json:"name" binding:"required"`
+	Description string          `json:"description"`
+	OwnerID     int64           `json:"owner_id"`
+	Content     json.RawMessage `json:"content" binding:"required"`
 }
 
 // ParamUpdateScript 修改脚本内容用结构体
